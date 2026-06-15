@@ -118,6 +118,15 @@ def index():
             show=True
         ).add_to(m)
 
+        folium.TileLayer(
+            tiles = 'https://mt1.google.com/vt/lyrs=p&x={x}&y={y}&z={z}',
+            attr = 'Google',
+            name = 'Google Terrain',
+            overlay = False,
+            control = True,
+            show=False
+        ).add_to(m)
+
         folium.LayerControl().add_to(m)
         
         # Draw PolyLine connecting points
