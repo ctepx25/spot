@@ -1,7 +1,5 @@
-streamlit
+flask
 requests
 folium
-streamlit-folium
 pyTelegramBotAPI
 python-dotenv
-streamlit-autorefresh

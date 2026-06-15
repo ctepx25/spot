@@ -4,7 +4,7 @@ FROM python:3.9-slim
 # Set system environment variables
 ENV PYTHONUNBUFFERED=1 \
     PYTHONDONTWRITEBYTECODE=1 \
-    PORT=8501
+    PORT=5000
 
 # Set the working directory inside the container
 WORKDIR /app
@@ -24,8 +24,8 @@ COPY . .
 # Ensure the entrypoint script is executable
 RUN chmod +x entrypoint.sh
 
-# Expose Streamlit's default port
-EXPOSE 8501
+# Expose Flask's default port
+EXPOSE 5000
 
 # Declare a volume for persisting the SQLite tracking history database
 VOLUME ["/app/data"]
@@ -36,5 +36,5 @@ ENV SPOT_FEED_ID="0FOq6U5ICzOEL4qCqbM8YrAOqUzP8uGUp" \
     TELEGRAM_CHAT_ID="" \
     POLL_INTERVAL="60"
 
-# Use the entrypoint script to launch both the daemon and Streamlit dashboard
+# Use the entrypoint script to launch both the daemon and Flask dashboard
 ENTRYPOINT ["./entrypoint.sh"]

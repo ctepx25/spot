@@ -4,7 +4,7 @@
 set -e
 
 echo "=================================================="
-echo "🐳 Starting SPOT Tracker Container Services..."
+echo "🐳 Starting SPOT Tracker Flask Container Services..."
 echo "=================================================="
 
 # Start the background scraping daemon in the background
@@ -12,7 +12,7 @@ echo "=================================================="
 echo "Starting 24/7 background scraping daemon..."
 python daemon.py &
 
-# Start the Streamlit frontend dashboard in the foreground
+# Start the Flask web dashboard in the foreground on port 5000
 # Using 'exec' to replace the shell process so OS termination signals are received cleanly
-echo "Starting Streamlit dashboard on port 8501..."
-exec streamlit run app.py --server.port 8501 --server.address 0.0.0.0
+echo "Starting Flask web dashboard on port 5000..."
+exec python app.py
