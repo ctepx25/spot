@@ -127,27 +127,12 @@
                         <button class="btn btn-primary w-100 mb-2 py-2" id="sync-btn" onclick="triggerSync()">
                             <i class="fa-solid fa-arrows-rotate me-1"></i> Sync Live Feed Data
                         </button>
-                        <div class="text-center mt-3">
-                            <span class="badge bg-light text-dark border p-2 w-100">
-                                <i class="fa-solid fa-server me-1"></i> 24/7 background scraping active
-                            </span>
-                        </div>
                     </div>
                 </div>
             </div>
 
             <!-- Right Dashboard View -->
             <div class="col-lg-9 col-md-8">
-
-                <!-- Global Battery Warning Alert -->
-                {% if battery_status == "LOW" %}
-                <div class="alert alert-warning d-flex align-items-center mb-4" role="alert">
-                    <i class="fa-solid fa-battery-quarter me-2 fs-4"></i>
-                    <div>
-                        <strong>Device Battery Alert:</strong> The tracker battery status is reported as <strong>LOW</strong>. Please replace batteries soon.
-                    </div>
-                </div>
-                {% endif %}
 
                 <!-- Metrics Panel Grid -->
                 <div class="row mb-2">
@@ -193,12 +178,6 @@
                 <!-- Interactive Map Section -->
                 {% if points_count > 0 %}
                 <div class="card mb-4">
-                    <div class="card-header bg-white py-3 d-flex justify-content-end align-items-center">
-                        <div class="d-flex gap-2">
-                            <span class="badge bg-success"><i class="fa-solid fa-circle me-1"></i> OK Point</span>
-                            <span class="badge bg-primary"><i class="fa-solid fa-circle me-1"></i> TRACK Point</span>
-                        </div>
-                    </div>
                     <div class="card-body p-0">
                         <div class="map-container">
                             <iframe src="{{ url_for('map_frame', date=selected_date) }}" width="100%" height="100%" frameborder="0"></iframe>
