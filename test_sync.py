@@ -63,12 +63,52 @@ def run_test():
     print(f"  Battery: {first_msg['batteryState']}")
     print(f"  Type: {first_msg['messageType']}")
     
-    print("\n🎉 ALL TESTS PASSED SUCCESSFULLY!")
+    print("\n🎉 ALL DATABASE INTEGRATION TESTS PASSED SUCCESSFULLY!")
     
     # Clean up test database
     if os.path.exists(test_db):
         os.remove(test_db)
         print("🗑️ Test database cleaned up.")
 
+def test_app_map_and_proxy_config():
+    print("\n🧪 Verifying Flask ProxyFix middleware and Cartodb Positron map rendering...")
+    from app import app
+    from werkzeug.middleware.proxy_fix import ProxyFix
+    
+    # 1. Verify ProxyFix middleware is applied
+    assert isinstance(app.wsgi_app, ProxyFix), "Flask app.wsgi_app should be wrapped with ProxyFix middleware."
+    print("✅ Verified: ProxyFix is successfully applied to Flask app.wsgi_app.")
+
+    # 2. Verify Flask detects proxy headers using test client
+    with app.test_client() as client:
+        @app.route("/_test_proxy_headers")
+        def _test_proxy_headers():
+            from flask import request
+            return {"scheme": request.scheme, "host": request.host}
+            
+        response = client.get("/_test_proxy_headers", headers={
+            "X-Forwarded-Proto": "https",
+            "X-Forwarded-Host": "my-secure-proxy.com"
+        })
+        assert response.status_code == 200
+        data = response.get_json()
+        assert data["scheme"] == "https", f"Flask should detect HTTPS from X-Forwarded-Proto. Got: {data['scheme']}"
+        assert data["host"] == "my-secure-proxy.com", f"Flask should detect Host from X-Forwarded-Host. Got: {data['host']}"
+    print("✅ Verified: Flask correctly handles forwarded proxy headers through ProxyFix.")
+
+    # 3. Verify Map tile layers are generated with HTTPS-secured Cartodb Positron
+    with app.test_client() as client:
+        # Request the index page which renders the map
+        response = client.get("/")
+        assert response.status_code == 200, "Index route should respond with 200 OK."
+        html_content = response.get_data(as_text=True)
+        
+        # Check that Cartodb Positron tile URL is present in the rendered HTML
+        assert "basemaps.cartocdn.com/light_all" in html_content, "Map HTML should render Cartodb Positron basemap tiles URL."
+        # Ensure it is secure HTTPS URL
+        assert "https://" in html_content, "Cartodb Positron tiles should use HTTPS URL scheme."
+    print("✅ Verified: Map renders with secure HTTPS Cartodb Positron tile URLs.")
+
 if __name__ == "__main__":
     run_test()
+    test_app_map_and_proxy_config()

@@ -4,6 +4,7 @@ import csv
 import logging
 from datetime import datetime, date
 from flask import Flask, render_template, request, jsonify, Response, redirect, url_for
+from werkzeug.middleware.proxy_fix import ProxyFix
 
 from dotenv import load_dotenv
 import folium
@@ -19,6 +20,7 @@ logger = logging.getLogger("SPOT_Flask")
 load_dotenv()
 
 app = Flask(__name__)
+app.wsgi_app = ProxyFix(app.wsgi_app, x_proto=1, x_host=1)
 
 # --- Configuration & Paths ---
 DB_PATH = os.path.join(os.path.dirname(__file__), "data", "tracking.db")
@@ -98,10 +100,17 @@ def index():
         center_lat = latest_point['latitude']
         center_lon = latest_point['longitude']
         
-        m = folium.Map(location=[center_lat, center_lon], zoom_start=13, control_scale=True, attr='&copy; <a href="https://openstreetmap.org">OpenStreetMap</a> contributors &copy; <a href="https://carto.com">CARTO</a>')
+        m = folium.Map(
+            location=[center_lat, center_lon],
+            zoom_start=13,
+            control_scale=True,
+            tiles="https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png",
+            attr='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/attributions">CARTO</a>',
+            name="Cartodb Positron"
+        )
         
         # Layers
-        folium.TileLayer('openstreetmap').add_to(m)
+        folium.TileLayer('openstreetmap', name="OpenStreetMap").add_to(m)
         folium.TileLayer(
             tiles='https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}',
             attr='Esri',
@@ -109,24 +118,6 @@ def index():
             overlay=False,
             control=True
         ).add_to(m)
-
-        folium.TileLayer(
-            tiles= 'Cartodb Positron',
-            name = 'Light',
-            overlay = False,
-            control = True,
-            show=True
-        ).add_to(m)
-
-        folium.TileLayer(
-            tiles = 'https://mt1.google.com/vt/lyrs=p&x={x}&y={y}&z={z}',
-            attr = 'Google',
-            name = 'Google Terrain',
-            overlay = False,
-            control = True,
-            show=False
-        ).add_to(m)
-
         folium.LayerControl().add_to(m)
         
         # Draw PolyLine connecting points
