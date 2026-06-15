@@ -1,0 +1,604 @@
+2026-06-15 18:58:21,308 [INFO] ==================================================
+2026-06-15 18:58:21,308 [INFO] 🚀 SPOT 24/7 Background Scraping Daemon Started!
+2026-06-15 18:58:21,308 [INFO] SPOT Feed ID: 0FOq6U5ICzOEL4qCqbM8YrAOqUzP8uGUp
+2026-06-15 18:58:21,308 [INFO] Polling Interval: 60 seconds
+2026-06-15 18:58:21,308 [INFO] Database Path: /Users/andreybadikov/spot-tracker/data/tracking.db
+2026-06-15 18:58:21,308 [INFO] Telegram Notification Integration: NOT CONFIGURED (Alerts Skipped)
+2026-06-15 18:58:21,308 [INFO] ==================================================
+2026-06-15 18:58:21,311 [INFO] Database initialized successfully.
+2026-06-15 18:58:21,311 [INFO] Initiating SPOT feed poll cycle...
+2026-06-15 18:58:21,311 [INFO] Fetching SPOT feed data from URL: https://api.findmespot.com/spot-main-web/consumer/rest-api/2.0/public/feed/0FOq6U5ICzOEL4qCqbM8YrAOqUzP8uGUp/message.json?startDate=2026-06-14T15:58:21-0000&endDate=2026-06-15T15:58:21-0000
+2026-06-15 18:58:21,560 [INFO] No messages found in the SPOT response.
+2026-06-15 18:58:21,560 [INFO] Sync complete. No new points found.
+2026-06-15 18:59:21,778 [INFO] Initiating SPOT feed poll cycle...
+2026-06-15 18:59:21,778 [INFO] Fetching SPOT feed data from URL: https://api.findmespot.com/spot-main-web/consumer/rest-api/2.0/public/feed/0FOq6U5ICzOEL4qCqbM8YrAOqUzP8uGUp/message.json?startDate=2026-06-14T15:59:21-0000&endDate=2026-06-15T15:59:21-0000
+2026-06-15 18:59:22,107 [INFO] No messages found in the SPOT response.
+2026-06-15 18:59:22,107 [INFO] Sync complete. No new points found.
+2026-06-15 19:00:22,339 [INFO] Initiating SPOT feed poll cycle...
+2026-06-15 19:00:22,341 [INFO] Fetching SPOT feed data from URL: https://api.findmespot.com/spot-main-web/consumer/rest-api/2.0/public/feed/0FOq6U5ICzOEL4qCqbM8YrAOqUzP8uGUp/message.json?startDate=2026-06-14T16:00:22-0000&endDate=2026-06-15T16:00:22-0000
+2026-06-15 19:00:22,621 [INFO] No messages found in the SPOT response.
+2026-06-15 19:00:22,622 [INFO] Sync complete. No new points found.
+2026-06-15 19:01:22,824 [INFO] Initiating SPOT feed poll cycle...
+2026-06-15 19:01:22,825 [INFO] Fetching SPOT feed data from URL: https://api.findmespot.com/spot-main-web/consumer/rest-api/2.0/public/feed/0FOq6U5ICzOEL4qCqbM8YrAOqUzP8uGUp/message.json?startDate=2026-06-14T16:01:22-0000&endDate=2026-06-15T16:01:22-0000
+2026-06-15 19:01:23,064 [INFO] No messages found in the SPOT response.
+2026-06-15 19:01:23,064 [INFO] Sync complete. No new points found.
+2026-06-15 19:02:23,289 [INFO] Initiating SPOT feed poll cycle...
+2026-06-15 19:02:23,289 [INFO] Fetching SPOT feed data from URL: https://api.findmespot.com/spot-main-web/consumer/rest-api/2.0/public/feed/0FOq6U5ICzOEL4qCqbM8YrAOqUzP8uGUp/message.json?startDate=2026-06-14T16:02:23-0000&endDate=2026-06-15T16:02:23-0000
+2026-06-15 19:02:23,511 [INFO] No messages found in the SPOT response.
+2026-06-15 19:02:23,512 [INFO] Sync complete. No new points found.
+2026-06-15 19:03:23,710 [INFO] Initiating SPOT feed poll cycle...
+2026-06-15 19:03:23,711 [INFO] Fetching SPOT feed data from URL: https://api.findmespot.com/spot-main-web/consumer/rest-api/2.0/public/feed/0FOq6U5ICzOEL4qCqbM8YrAOqUzP8uGUp/message.json?startDate=2026-06-14T16:03:23-0000&endDate=2026-06-15T16:03:23-0000
+2026-06-15 19:03:24,026 [INFO] No messages found in the SPOT response.
+2026-06-15 19:03:24,026 [INFO] Sync complete. No new points found.
+2026-06-15 19:04:24,233 [INFO] Initiating SPOT feed poll cycle...
+2026-06-15 19:04:24,234 [INFO] Fetching SPOT feed data from URL: https://api.findmespot.com/spot-main-web/consumer/rest-api/2.0/public/feed/0FOq6U5ICzOEL4qCqbM8YrAOqUzP8uGUp/message.json?startDate=2026-06-14T16:04:24-0000&endDate=2026-06-15T16:04:24-0000
+2026-06-15 19:04:24,456 [INFO] No messages found in the SPOT response.
+2026-06-15 19:04:24,456 [INFO] Sync complete. No new points found.
+2026-06-15 19:05:24,670 [INFO] Initiating SPOT feed poll cycle...
+2026-06-15 19:05:24,673 [INFO] Fetching SPOT feed data from URL: https://api.findmespot.com/spot-main-web/consumer/rest-api/2.0/public/feed/0FOq6U5ICzOEL4qCqbM8YrAOqUzP8uGUp/message.json?startDate=2026-06-14T16:05:24-0000&endDate=2026-06-15T16:05:24-0000
+2026-06-15 19:05:24,971 [INFO] No messages found in the SPOT response.
+2026-06-15 19:05:24,972 [INFO] Sync complete. No new points found.
+2026-06-15 19:06:25,173 [INFO] Initiating SPOT feed poll cycle...
+2026-06-15 19:06:25,174 [INFO] Fetching SPOT feed data from URL: https://api.findmespot.com/spot-main-web/consumer/rest-api/2.0/public/feed/0FOq6U5ICzOEL4qCqbM8YrAOqUzP8uGUp/message.json?startDate=2026-06-14T16:06:25-0000&endDate=2026-06-15T16:06:25-0000
+2026-06-15 19:06:25,394 [INFO] No messages found in the SPOT response.
+2026-06-15 19:06:25,394 [INFO] Sync complete. No new points found.
+2026-06-15 19:07:25,596 [INFO] Initiating SPOT feed poll cycle...
+2026-06-15 19:07:25,596 [INFO] Fetching SPOT feed data from URL: https://api.findmespot.com/spot-main-web/consumer/rest-api/2.0/public/feed/0FOq6U5ICzOEL4qCqbM8YrAOqUzP8uGUp/message.json?startDate=2026-06-14T16:07:25-0000&endDate=2026-06-15T16:07:25-0000
+2026-06-15 19:07:25,810 [INFO] No messages found in the SPOT response.
+2026-06-15 19:07:25,810 [INFO] Sync complete. No new points found.
+2026-06-15 19:08:26,046 [INFO] Initiating SPOT feed poll cycle...
+2026-06-15 19:08:26,046 [INFO] Fetching SPOT feed data from URL: https://api.findmespot.com/spot-main-web/consumer/rest-api/2.0/public/feed/0FOq6U5ICzOEL4qCqbM8YrAOqUzP8uGUp/message.json?startDate=2026-06-14T16:08:26-0000&endDate=2026-06-15T16:08:26-0000
+2026-06-15 19:08:26,320 [INFO] No messages found in the SPOT response.
+2026-06-15 19:08:26,320 [INFO] Sync complete. No new points found.
+2026-06-15 19:09:26,536 [INFO] Initiating SPOT feed poll cycle...
+2026-06-15 19:09:26,537 [INFO] Fetching SPOT feed data from URL: https://api.findmespot.com/spot-main-web/consumer/rest-api/2.0/public/feed/0FOq6U5ICzOEL4qCqbM8YrAOqUzP8uGUp/message.json?startDate=2026-06-14T16:09:26-0000&endDate=2026-06-15T16:09:26-0000
+2026-06-15 19:09:26,822 [INFO] No messages found in the SPOT response.
+2026-06-15 19:09:26,822 [INFO] Sync complete. No new points found.
+2026-06-15 19:10:27,025 [INFO] Initiating SPOT feed poll cycle...
+2026-06-15 19:10:27,026 [INFO] Fetching SPOT feed data from URL: https://api.findmespot.com/spot-main-web/consumer/rest-api/2.0/public/feed/0FOq6U5ICzOEL4qCqbM8YrAOqUzP8uGUp/message.json?startDate=2026-06-14T16:10:27-0000&endDate=2026-06-15T16:10:27-0000
+2026-06-15 19:10:27,241 [INFO] No messages found in the SPOT response.
+2026-06-15 19:10:27,241 [INFO] Sync complete. No new points found.
+2026-06-15 19:11:27,461 [INFO] Initiating SPOT feed poll cycle...
+2026-06-15 19:11:27,462 [INFO] Fetching SPOT feed data from URL: https://api.findmespot.com/spot-main-web/consumer/rest-api/2.0/public/feed/0FOq6U5ICzOEL4qCqbM8YrAOqUzP8uGUp/message.json?startDate=2026-06-14T16:11:27-0000&endDate=2026-06-15T16:11:27-0000
+2026-06-15 19:11:27,723 [INFO] No messages found in the SPOT response.
+2026-06-15 19:11:27,724 [INFO] Sync complete. No new points found.
+2026-06-15 19:12:27,935 [INFO] Initiating SPOT feed poll cycle...
+2026-06-15 19:12:27,936 [INFO] Fetching SPOT feed data from URL: https://api.findmespot.com/spot-main-web/consumer/rest-api/2.0/public/feed/0FOq6U5ICzOEL4qCqbM8YrAOqUzP8uGUp/message.json?startDate=2026-06-14T16:12:27-0000&endDate=2026-06-15T16:12:27-0000
+2026-06-15 19:12:28,323 [INFO] No messages found in the SPOT response.
+2026-06-15 19:12:28,323 [INFO] Sync complete. No new points found.
+2026-06-15 19:13:28,528 [INFO] Initiating SPOT feed poll cycle...
+2026-06-15 19:13:28,529 [INFO] Fetching SPOT feed data from URL: https://api.findmespot.com/spot-main-web/consumer/rest-api/2.0/public/feed/0FOq6U5ICzOEL4qCqbM8YrAOqUzP8uGUp/message.json?startDate=2026-06-14T16:13:28-0000&endDate=2026-06-15T16:13:28-0000
+2026-06-15 19:13:28,834 [INFO] No messages found in the SPOT response.
+2026-06-15 19:13:28,834 [INFO] Sync complete. No new points found.
+2026-06-15 19:14:29,056 [INFO] Initiating SPOT feed poll cycle...
+2026-06-15 19:14:29,057 [INFO] Fetching SPOT feed data from URL: https://api.findmespot.com/spot-main-web/consumer/rest-api/2.0/public/feed/0FOq6U5ICzOEL4qCqbM8YrAOqUzP8uGUp/message.json?startDate=2026-06-14T16:14:29-0000&endDate=2026-06-15T16:14:29-0000
+2026-06-15 19:14:29,325 [INFO] No messages found in the SPOT response.
+2026-06-15 19:14:29,326 [INFO] Sync complete. No new points found.
+2026-06-15 19:15:29,562 [INFO] Initiating SPOT feed poll cycle...
+2026-06-15 19:15:29,562 [INFO] Fetching SPOT feed data from URL: https://api.findmespot.com/spot-main-web/consumer/rest-api/2.0/public/feed/0FOq6U5ICzOEL4qCqbM8YrAOqUzP8uGUp/message.json?startDate=2026-06-14T16:15:29-0000&endDate=2026-06-15T16:15:29-0000
+2026-06-15 19:15:29,806 [INFO] No messages found in the SPOT response.
+2026-06-15 19:15:29,807 [INFO] Sync complete. No new points found.
+2026-06-15 19:16:30,005 [INFO] Initiating SPOT feed poll cycle...
+2026-06-15 19:16:30,005 [INFO] Fetching SPOT feed data from URL: https://api.findmespot.com/spot-main-web/consumer/rest-api/2.0/public/feed/0FOq6U5ICzOEL4qCqbM8YrAOqUzP8uGUp/message.json?startDate=2026-06-14T16:16:30-0000&endDate=2026-06-15T16:16:30-0000
+2026-06-15 19:16:30,237 [INFO] No messages found in the SPOT response.
+2026-06-15 19:16:30,237 [INFO] Sync complete. No new points found.
+2026-06-15 19:17:30,430 [INFO] Initiating SPOT feed poll cycle...
+2026-06-15 19:17:30,430 [INFO] Fetching SPOT feed data from URL: https://api.findmespot.com/spot-main-web/consumer/rest-api/2.0/public/feed/0FOq6U5ICzOEL4qCqbM8YrAOqUzP8uGUp/message.json?startDate=2026-06-14T16:17:30-0000&endDate=2026-06-15T16:17:30-0000
+2026-06-15 19:17:30,708 [INFO] No messages found in the SPOT response.
+2026-06-15 19:17:30,709 [INFO] Sync complete. No new points found.
+2026-06-15 19:18:30,898 [INFO] Initiating SPOT feed poll cycle...
+2026-06-15 19:18:30,899 [INFO] Fetching SPOT feed data from URL: https://api.findmespot.com/spot-main-web/consumer/rest-api/2.0/public/feed/0FOq6U5ICzOEL4qCqbM8YrAOqUzP8uGUp/message.json?startDate=2026-06-14T16:18:30-0000&endDate=2026-06-15T16:18:30-0000
+2026-06-15 19:18:31,139 [INFO] No messages found in the SPOT response.
+2026-06-15 19:18:31,140 [INFO] Sync complete. No new points found.
+2026-06-15 19:19:31,355 [INFO] Initiating SPOT feed poll cycle...
+2026-06-15 19:19:31,355 [INFO] Fetching SPOT feed data from URL: https://api.findmespot.com/spot-main-web/consumer/rest-api/2.0/public/feed/0FOq6U5ICzOEL4qCqbM8YrAOqUzP8uGUp/message.json?startDate=2026-06-14T16:19:31-0000&endDate=2026-06-15T16:19:31-0000
+2026-06-15 19:19:31,578 [INFO] No messages found in the SPOT response.
+2026-06-15 19:19:31,578 [INFO] Sync complete. No new points found.
+2026-06-15 19:20:02,968 [INFO] ==================================================
+2026-06-15 19:20:02,968 [INFO] 🚀 SPOT 24/7 Background Scraping Daemon Started!
+2026-06-15 19:20:02,968 [INFO] SPOT Feed ID: 0FOq6U5ICzOEL4qCqbM8YrAOqUzP8uGUp
+2026-06-15 19:20:02,968 [INFO] Polling Interval: 60 seconds
+2026-06-15 19:20:02,968 [INFO] Database Path: /Users/andreybadikov/spot-tracker/data/tracking.db
+2026-06-15 19:20:02,968 [INFO] Telegram Notification Integration: NOT CONFIGURED (Alerts Skipped)
+2026-06-15 19:20:02,968 [INFO] ==================================================
+2026-06-15 19:20:02,971 [INFO] Database initialized successfully.
+2026-06-15 19:20:02,971 [INFO] Initiating SPOT feed poll cycle...
+2026-06-15 19:20:02,971 [INFO] Fetching SPOT feed data from URL: https://api.findmespot.com/spot-main-web/consumer/rest-api/2.0/public/feed/0FOq6U5ICzOEL4qCqbM8YrAOqUzP8uGUp/message.json?startDate=2026-06-14T16:20:02-0000&endDate=2026-06-15T16:20:02-0000
+2026-06-15 19:20:03,205 [INFO] No messages found in the SPOT response.
+2026-06-15 19:20:03,206 [INFO] Sync complete. No new points found.
+2026-06-15 19:21:03,702 [INFO] Initiating SPOT feed poll cycle...
+2026-06-15 19:21:03,703 [INFO] Fetching SPOT feed data from URL: https://api.findmespot.com/spot-main-web/consumer/rest-api/2.0/public/feed/0FOq6U5ICzOEL4qCqbM8YrAOqUzP8uGUp/message.json?startDate=2026-06-14T16:21:03-0000&endDate=2026-06-15T16:21:03-0000
+2026-06-15 19:21:03,921 [INFO] No messages found in the SPOT response.
+2026-06-15 19:21:03,921 [INFO] Sync complete. No new points found.
+2026-06-15 19:22:04,119 [INFO] Initiating SPOT feed poll cycle...
+2026-06-15 19:22:04,121 [INFO] Fetching SPOT feed data from URL: https://api.findmespot.com/spot-main-web/consumer/rest-api/2.0/public/feed/0FOq6U5ICzOEL4qCqbM8YrAOqUzP8uGUp/message.json?startDate=2026-06-14T16:22:04-0000&endDate=2026-06-15T16:22:04-0000
+2026-06-15 19:22:04,430 [INFO] No messages found in the SPOT response.
+2026-06-15 19:22:04,430 [INFO] Sync complete. No new points found.
+2026-06-15 19:23:04,628 [INFO] Initiating SPOT feed poll cycle...
+2026-06-15 19:23:04,630 [INFO] Fetching SPOT feed data from URL: https://api.findmespot.com/spot-main-web/consumer/rest-api/2.0/public/feed/0FOq6U5ICzOEL4qCqbM8YrAOqUzP8uGUp/message.json?startDate=2026-06-14T16:23:04-0000&endDate=2026-06-15T16:23:04-0000
+2026-06-15 19:23:04,925 [INFO] No messages found in the SPOT response.
+2026-06-15 19:23:04,926 [INFO] Sync complete. No new points found.
+2026-06-15 19:24:05,140 [INFO] Initiating SPOT feed poll cycle...
+2026-06-15 19:24:05,140 [INFO] Fetching SPOT feed data from URL: https://api.findmespot.com/spot-main-web/consumer/rest-api/2.0/public/feed/0FOq6U5ICzOEL4qCqbM8YrAOqUzP8uGUp/message.json?startDate=2026-06-14T16:24:05-0000&endDate=2026-06-15T16:24:05-0000
+2026-06-15 19:24:05,356 [INFO] No messages found in the SPOT response.
+2026-06-15 19:24:05,356 [INFO] Sync complete. No new points found.
+2026-06-15 19:25:05,543 [INFO] Initiating SPOT feed poll cycle...
+2026-06-15 19:25:05,544 [INFO] Fetching SPOT feed data from URL: https://api.findmespot.com/spot-main-web/consumer/rest-api/2.0/public/feed/0FOq6U5ICzOEL4qCqbM8YrAOqUzP8uGUp/message.json?startDate=2026-06-14T16:25:05-0000&endDate=2026-06-15T16:25:05-0000
+2026-06-15 19:25:05,835 [INFO] No messages found in the SPOT response.
+2026-06-15 19:25:05,835 [INFO] Sync complete. No new points found.
+2026-06-15 19:26:06,042 [INFO] Initiating SPOT feed poll cycle...
+2026-06-15 19:26:06,042 [INFO] Fetching SPOT feed data from URL: https://api.findmespot.com/spot-main-web/consumer/rest-api/2.0/public/feed/0FOq6U5ICzOEL4qCqbM8YrAOqUzP8uGUp/message.json?startDate=2026-06-14T16:26:06-0000&endDate=2026-06-15T16:26:06-0000
+2026-06-15 19:26:06,346 [INFO] No messages found in the SPOT response.
+2026-06-15 19:26:06,347 [INFO] Sync complete. No new points found.
+2026-06-15 19:27:06,561 [INFO] Initiating SPOT feed poll cycle...
+2026-06-15 19:27:06,562 [INFO] Fetching SPOT feed data from URL: https://api.findmespot.com/spot-main-web/consumer/rest-api/2.0/public/feed/0FOq6U5ICzOEL4qCqbM8YrAOqUzP8uGUp/message.json?startDate=2026-06-14T16:27:06-0000&endDate=2026-06-15T16:27:06-0000
+2026-06-15 19:27:06,783 [INFO] No messages found in the SPOT response.
+2026-06-15 19:27:06,783 [INFO] Sync complete. No new points found.
+2026-06-15 19:27:56,714 [INFO] ==================================================
+2026-06-15 19:27:56,714 [INFO] 🚀 SPOT 24/7 Background Scraping Daemon Started!
+2026-06-15 19:27:56,714 [INFO] SPOT Feed ID: 0FOq6U5ICzOEL4qCqbM8YrAOqUzP8uGUp
+2026-06-15 19:27:56,714 [INFO] Polling Interval: 60 seconds
+2026-06-15 19:27:56,714 [INFO] Database Path: /Users/andreybadikov/spot-tracker/data/tracking.db
+2026-06-15 19:27:56,714 [INFO] Telegram Notification Integration: NOT CONFIGURED (Alerts Skipped)
+2026-06-15 19:27:56,714 [INFO] ==================================================
+2026-06-15 19:27:56,717 [INFO] Database initialized successfully.
+2026-06-15 19:27:56,717 [INFO] Initiating SPOT feed poll cycle...
+2026-06-15 19:27:56,717 [INFO] Fetching SPOT feed data from URL: https://api.findmespot.com/spot-main-web/consumer/rest-api/2.0/public/feed/0FOq6U5ICzOEL4qCqbM8YrAOqUzP8uGUp/message.json?startDate=2026-06-14T16:27:56-0000&endDate=2026-06-15T16:27:56-0000
+2026-06-15 19:27:57,063 [INFO] No messages found in the SPOT response.
+2026-06-15 19:27:57,063 [INFO] Sync complete. No new points found.
+2026-06-15 19:28:57,272 [INFO] Initiating SPOT feed poll cycle...
+2026-06-15 19:28:57,273 [INFO] Fetching SPOT feed data from URL: https://api.findmespot.com/spot-main-web/consumer/rest-api/2.0/public/feed/0FOq6U5ICzOEL4qCqbM8YrAOqUzP8uGUp/message.json?startDate=2026-06-14T16:28:57-0000&endDate=2026-06-15T16:28:57-0000
+2026-06-15 19:28:57,581 [INFO] No messages found in the SPOT response.
+2026-06-15 19:28:57,582 [INFO] Sync complete. No new points found.
+2026-06-15 19:29:57,787 [INFO] Initiating SPOT feed poll cycle...
+2026-06-15 19:29:57,787 [INFO] Fetching SPOT feed data from URL: https://api.findmespot.com/spot-main-web/consumer/rest-api/2.0/public/feed/0FOq6U5ICzOEL4qCqbM8YrAOqUzP8uGUp/message.json?startDate=2026-06-14T16:29:57-0000&endDate=2026-06-15T16:29:57-0000
+2026-06-15 19:29:58,095 [INFO] No messages found in the SPOT response.
+2026-06-15 19:29:58,095 [INFO] Sync complete. No new points found.
+2026-06-15 19:30:58,304 [INFO] Initiating SPOT feed poll cycle...
+2026-06-15 19:30:58,304 [INFO] Fetching SPOT feed data from URL: https://api.findmespot.com/spot-main-web/consumer/rest-api/2.0/public/feed/0FOq6U5ICzOEL4qCqbM8YrAOqUzP8uGUp/message.json?startDate=2026-06-14T16:30:58-0000&endDate=2026-06-15T16:30:58-0000
+2026-06-15 19:30:58,532 [INFO] No messages found in the SPOT response.
+2026-06-15 19:30:58,533 [INFO] Sync complete. No new points found.
+2026-06-15 19:31:58,730 [INFO] Initiating SPOT feed poll cycle...
+2026-06-15 19:31:58,730 [INFO] Fetching SPOT feed data from URL: https://api.findmespot.com/spot-main-web/consumer/rest-api/2.0/public/feed/0FOq6U5ICzOEL4qCqbM8YrAOqUzP8uGUp/message.json?startDate=2026-06-14T16:31:58-0000&endDate=2026-06-15T16:31:58-0000
+2026-06-15 19:31:58,989 [INFO] No messages found in the SPOT response.
+2026-06-15 19:31:58,989 [INFO] Sync complete. No new points found.
+2026-06-15 19:32:59,217 [INFO] Initiating SPOT feed poll cycle...
+2026-06-15 19:32:59,217 [INFO] Fetching SPOT feed data from URL: https://api.findmespot.com/spot-main-web/consumer/rest-api/2.0/public/feed/0FOq6U5ICzOEL4qCqbM8YrAOqUzP8uGUp/message.json?startDate=2026-06-14T16:32:59-0000&endDate=2026-06-15T16:32:59-0000
+2026-06-15 19:32:59,510 [INFO] No messages found in the SPOT response.
+2026-06-15 19:32:59,510 [INFO] Sync complete. No new points found.
+2026-06-15 19:33:59,733 [INFO] Initiating SPOT feed poll cycle...
+2026-06-15 19:33:59,734 [INFO] Fetching SPOT feed data from URL: https://api.findmespot.com/spot-main-web/consumer/rest-api/2.0/public/feed/0FOq6U5ICzOEL4qCqbM8YrAOqUzP8uGUp/message.json?startDate=2026-06-14T16:33:59-0000&endDate=2026-06-15T16:33:59-0000
+2026-06-15 19:33:59,966 [INFO] No messages found in the SPOT response.
+2026-06-15 19:33:59,966 [INFO] Sync complete. No new points found.
+2026-06-15 19:35:00,155 [INFO] Initiating SPOT feed poll cycle...
+2026-06-15 19:35:00,156 [INFO] Fetching SPOT feed data from URL: https://api.findmespot.com/spot-main-web/consumer/rest-api/2.0/public/feed/0FOq6U5ICzOEL4qCqbM8YrAOqUzP8uGUp/message.json?startDate=2026-06-14T16:35:00-0000&endDate=2026-06-15T16:35:00-0000
+2026-06-15 19:35:00,398 [INFO] No messages found in the SPOT response.
+2026-06-15 19:35:00,398 [INFO] Sync complete. No new points found.
+2026-06-15 19:36:00,609 [INFO] Initiating SPOT feed poll cycle...
+2026-06-15 19:36:00,610 [INFO] Fetching SPOT feed data from URL: https://api.findmespot.com/spot-main-web/consumer/rest-api/2.0/public/feed/0FOq6U5ICzOEL4qCqbM8YrAOqUzP8uGUp/message.json?startDate=2026-06-14T16:36:00-0000&endDate=2026-06-15T16:36:00-0000
+2026-06-15 19:36:00,888 [INFO] No messages found in the SPOT response.
+2026-06-15 19:36:00,889 [INFO] Sync complete. No new points found.
+2026-06-15 19:37:01,245 [INFO] Initiating SPOT feed poll cycle...
+2026-06-15 19:37:01,246 [INFO] Fetching SPOT feed data from URL: https://api.findmespot.com/spot-main-web/consumer/rest-api/2.0/public/feed/0FOq6U5ICzOEL4qCqbM8YrAOqUzP8uGUp/message.json?startDate=2026-06-14T16:37:01-0000&endDate=2026-06-15T16:37:01-0000
+2026-06-15 19:37:01,474 [INFO] No messages found in the SPOT response.
+2026-06-15 19:37:01,475 [INFO] Sync complete. No new points found.
+2026-06-15 19:38:01,686 [INFO] Initiating SPOT feed poll cycle...
+2026-06-15 19:38:01,686 [INFO] Fetching SPOT feed data from URL: https://api.findmespot.com/spot-main-web/consumer/rest-api/2.0/public/feed/0FOq6U5ICzOEL4qCqbM8YrAOqUzP8uGUp/message.json?startDate=2026-06-14T16:38:01-0000&endDate=2026-06-15T16:38:01-0000
+2026-06-15 19:38:01,940 [INFO] No messages found in the SPOT response.
+2026-06-15 19:38:01,941 [INFO] Sync complete. No new points found.
+2026-06-15 19:39:02,291 [INFO] Initiating SPOT feed poll cycle...
+2026-06-15 19:39:02,292 [INFO] Fetching SPOT feed data from URL: https://api.findmespot.com/spot-main-web/consumer/rest-api/2.0/public/feed/0FOq6U5ICzOEL4qCqbM8YrAOqUzP8uGUp/message.json?startDate=2026-06-14T16:39:02-0000&endDate=2026-06-15T16:39:02-0000
+2026-06-15 19:39:02,521 [INFO] No messages found in the SPOT response.
+2026-06-15 19:39:02,522 [INFO] Sync complete. No new points found.
+2026-06-15 19:40:02,725 [INFO] Initiating SPOT feed poll cycle...
+2026-06-15 19:40:02,726 [INFO] Fetching SPOT feed data from URL: https://api.findmespot.com/spot-main-web/consumer/rest-api/2.0/public/feed/0FOq6U5ICzOEL4qCqbM8YrAOqUzP8uGUp/message.json?startDate=2026-06-14T16:40:02-0000&endDate=2026-06-15T16:40:02-0000
+2026-06-15 19:40:02,967 [INFO] No messages found in the SPOT response.
+2026-06-15 19:40:02,968 [INFO] Sync complete. No new points found.
+2026-06-15 19:41:03,165 [INFO] Initiating SPOT feed poll cycle...
+2026-06-15 19:41:03,165 [INFO] Fetching SPOT feed data from URL: https://api.findmespot.com/spot-main-web/consumer/rest-api/2.0/public/feed/0FOq6U5ICzOEL4qCqbM8YrAOqUzP8uGUp/message.json?startDate=2026-06-14T16:41:03-0000&endDate=2026-06-15T16:41:03-0000
+2026-06-15 19:41:03,381 [INFO] No messages found in the SPOT response.
+2026-06-15 19:41:03,382 [INFO] Sync complete. No new points found.
+2026-06-15 19:42:03,596 [INFO] Initiating SPOT feed poll cycle...
+2026-06-15 19:42:03,597 [INFO] Fetching SPOT feed data from URL: https://api.findmespot.com/spot-main-web/consumer/rest-api/2.0/public/feed/0FOq6U5ICzOEL4qCqbM8YrAOqUzP8uGUp/message.json?startDate=2026-06-14T16:42:03-0000&endDate=2026-06-15T16:42:03-0000
+2026-06-15 19:42:03,848 [INFO] No messages found in the SPOT response.
+2026-06-15 19:42:03,848 [INFO] Sync complete. No new points found.
+2026-06-15 19:43:04,077 [INFO] Initiating SPOT feed poll cycle...
+2026-06-15 19:43:04,077 [INFO] Fetching SPOT feed data from URL: https://api.findmespot.com/spot-main-web/consumer/rest-api/2.0/public/feed/0FOq6U5ICzOEL4qCqbM8YrAOqUzP8uGUp/message.json?startDate=2026-06-14T16:43:04-0000&endDate=2026-06-15T16:43:04-0000
+2026-06-15 19:43:04,283 [INFO] No messages found in the SPOT response.
+2026-06-15 19:43:04,283 [INFO] Sync complete. No new points found.
+2026-06-15 19:44:04,490 [INFO] Initiating SPOT feed poll cycle...
+2026-06-15 19:44:04,490 [INFO] Fetching SPOT feed data from URL: https://api.findmespot.com/spot-main-web/consumer/rest-api/2.0/public/feed/0FOq6U5ICzOEL4qCqbM8YrAOqUzP8uGUp/message.json?startDate=2026-06-14T16:44:04-0000&endDate=2026-06-15T16:44:04-0000
+2026-06-15 19:44:04,758 [INFO] No messages found in the SPOT response.
+2026-06-15 19:44:04,759 [INFO] Sync complete. No new points found.
+2026-06-15 19:45:04,979 [INFO] Initiating SPOT feed poll cycle...
+2026-06-15 19:45:04,980 [INFO] Fetching SPOT feed data from URL: https://api.findmespot.com/spot-main-web/consumer/rest-api/2.0/public/feed/0FOq6U5ICzOEL4qCqbM8YrAOqUzP8uGUp/message.json?startDate=2026-06-14T16:45:04-0000&endDate=2026-06-15T16:45:04-0000
+2026-06-15 19:45:05,253 [INFO] No messages found in the SPOT response.
+2026-06-15 19:45:05,253 [INFO] Sync complete. No new points found.
+2026-06-15 19:46:05,462 [INFO] Initiating SPOT feed poll cycle...
+2026-06-15 19:46:05,463 [INFO] Fetching SPOT feed data from URL: https://api.findmespot.com/spot-main-web/consumer/rest-api/2.0/public/feed/0FOq6U5ICzOEL4qCqbM8YrAOqUzP8uGUp/message.json?startDate=2026-06-14T16:46:05-0000&endDate=2026-06-15T16:46:05-0000
+2026-06-15 19:46:05,690 [INFO] No messages found in the SPOT response.
+2026-06-15 19:46:05,690 [INFO] Sync complete. No new points found.
+2026-06-15 19:47:05,884 [INFO] Initiating SPOT feed poll cycle...
+2026-06-15 19:47:05,884 [INFO] Fetching SPOT feed data from URL: https://api.findmespot.com/spot-main-web/consumer/rest-api/2.0/public/feed/0FOq6U5ICzOEL4qCqbM8YrAOqUzP8uGUp/message.json?startDate=2026-06-14T16:47:05-0000&endDate=2026-06-15T16:47:05-0000
+2026-06-15 19:47:06,172 [INFO] No messages found in the SPOT response.
+2026-06-15 19:47:06,172 [INFO] Sync complete. No new points found.
+2026-06-15 19:48:06,377 [INFO] Initiating SPOT feed poll cycle...
+2026-06-15 19:48:06,378 [INFO] Fetching SPOT feed data from URL: https://api.findmespot.com/spot-main-web/consumer/rest-api/2.0/public/feed/0FOq6U5ICzOEL4qCqbM8YrAOqUzP8uGUp/message.json?startDate=2026-06-14T16:48:06-0000&endDate=2026-06-15T16:48:06-0000
+2026-06-15 19:48:06,688 [INFO] No messages found in the SPOT response.
+2026-06-15 19:48:06,689 [INFO] Sync complete. No new points found.
+2026-06-15 19:49:06,861 [INFO] Initiating SPOT feed poll cycle...
+2026-06-15 19:49:06,863 [INFO] Fetching SPOT feed data from URL: https://api.findmespot.com/spot-main-web/consumer/rest-api/2.0/public/feed/0FOq6U5ICzOEL4qCqbM8YrAOqUzP8uGUp/message.json?startDate=2026-06-14T16:49:06-0000&endDate=2026-06-15T16:49:06-0000
+2026-06-15 19:49:07,090 [INFO] No messages found in the SPOT response.
+2026-06-15 19:49:07,091 [INFO] Sync complete. No new points found.
+2026-06-15 19:50:07,316 [INFO] Initiating SPOT feed poll cycle...
+2026-06-15 19:50:07,316 [INFO] Fetching SPOT feed data from URL: https://api.findmespot.com/spot-main-web/consumer/rest-api/2.0/public/feed/0FOq6U5ICzOEL4qCqbM8YrAOqUzP8uGUp/message.json?startDate=2026-06-14T16:50:07-0000&endDate=2026-06-15T16:50:07-0000
+2026-06-15 19:50:07,581 [INFO] No messages found in the SPOT response.
+2026-06-15 19:50:07,582 [INFO] Sync complete. No new points found.
+2026-06-15 19:51:07,783 [INFO] Initiating SPOT feed poll cycle...
+2026-06-15 19:51:07,784 [INFO] Fetching SPOT feed data from URL: https://api.findmespot.com/spot-main-web/consumer/rest-api/2.0/public/feed/0FOq6U5ICzOEL4qCqbM8YrAOqUzP8uGUp/message.json?startDate=2026-06-14T16:51:07-0000&endDate=2026-06-15T16:51:07-0000
+2026-06-15 19:51:08,074 [INFO] No messages found in the SPOT response.
+2026-06-15 19:51:08,075 [INFO] Sync complete. No new points found.
+2026-06-15 19:52:08,314 [INFO] Initiating SPOT feed poll cycle...
+2026-06-15 19:52:08,315 [INFO] Fetching SPOT feed data from URL: https://api.findmespot.com/spot-main-web/consumer/rest-api/2.0/public/feed/0FOq6U5ICzOEL4qCqbM8YrAOqUzP8uGUp/message.json?startDate=2026-06-14T16:52:08-0000&endDate=2026-06-15T16:52:08-0000
+2026-06-15 19:52:08,543 [INFO] No messages found in the SPOT response.
+2026-06-15 19:52:08,543 [INFO] Sync complete. No new points found.
+2026-06-15 19:53:08,629 [INFO] Initiating SPOT feed poll cycle...
+2026-06-15 19:53:08,630 [INFO] Fetching SPOT feed data from URL: https://api.findmespot.com/spot-main-web/consumer/rest-api/2.0/public/feed/0FOq6U5ICzOEL4qCqbM8YrAOqUzP8uGUp/message.json?startDate=2026-06-14T16:53:08-0000&endDate=2026-06-15T16:53:08-0000
+2026-06-15 19:53:09,246 [INFO] No messages found in the SPOT response.
+2026-06-15 19:53:09,246 [INFO] Sync complete. No new points found.
+2026-06-15 19:54:09,460 [INFO] Initiating SPOT feed poll cycle...
+2026-06-15 19:54:09,461 [INFO] Fetching SPOT feed data from URL: https://api.findmespot.com/spot-main-web/consumer/rest-api/2.0/public/feed/0FOq6U5ICzOEL4qCqbM8YrAOqUzP8uGUp/message.json?startDate=2026-06-14T16:54:09-0000&endDate=2026-06-15T16:54:09-0000
+2026-06-15 19:54:09,673 [INFO] No messages found in the SPOT response.
+2026-06-15 19:54:09,674 [INFO] Sync complete. No new points found.
+2026-06-15 19:55:09,889 [INFO] Initiating SPOT feed poll cycle...
+2026-06-15 19:55:09,889 [INFO] Fetching SPOT feed data from URL: https://api.findmespot.com/spot-main-web/consumer/rest-api/2.0/public/feed/0FOq6U5ICzOEL4qCqbM8YrAOqUzP8uGUp/message.json?startDate=2026-06-14T16:55:09-0000&endDate=2026-06-15T16:55:09-0000
+2026-06-15 19:55:10,136 [INFO] No messages found in the SPOT response.
+2026-06-15 19:55:10,136 [INFO] Sync complete. No new points found.
+2026-06-15 19:56:10,352 [INFO] Initiating SPOT feed poll cycle...
+2026-06-15 19:56:10,352 [INFO] Fetching SPOT feed data from URL: https://api.findmespot.com/spot-main-web/consumer/rest-api/2.0/public/feed/0FOq6U5ICzOEL4qCqbM8YrAOqUzP8uGUp/message.json?startDate=2026-06-14T16:56:10-0000&endDate=2026-06-15T16:56:10-0000
+2026-06-15 19:56:10,557 [INFO] No messages found in the SPOT response.
+2026-06-15 19:56:10,557 [INFO] Sync complete. No new points found.
+2026-06-15 19:57:10,761 [INFO] Initiating SPOT feed poll cycle...
+2026-06-15 19:57:10,761 [INFO] Fetching SPOT feed data from URL: https://api.findmespot.com/spot-main-web/consumer/rest-api/2.0/public/feed/0FOq6U5ICzOEL4qCqbM8YrAOqUzP8uGUp/message.json?startDate=2026-06-14T16:57:10-0000&endDate=2026-06-15T16:57:10-0000
+2026-06-15 19:57:11,555 [INFO] No messages found in the SPOT response.
+2026-06-15 19:57:11,555 [INFO] Sync complete. No new points found.
+2026-06-15 19:58:11,765 [INFO] Initiating SPOT feed poll cycle...
+2026-06-15 19:58:11,765 [INFO] Fetching SPOT feed data from URL: https://api.findmespot.com/spot-main-web/consumer/rest-api/2.0/public/feed/0FOq6U5ICzOEL4qCqbM8YrAOqUzP8uGUp/message.json?startDate=2026-06-14T16:58:11-0000&endDate=2026-06-15T16:58:11-0000
+2026-06-15 19:58:12,033 [INFO] No messages found in the SPOT response.
+2026-06-15 19:58:12,033 [INFO] Sync complete. No new points found.
+2026-06-15 19:59:12,244 [INFO] Initiating SPOT feed poll cycle...
+2026-06-15 19:59:12,244 [INFO] Fetching SPOT feed data from URL: https://api.findmespot.com/spot-main-web/consumer/rest-api/2.0/public/feed/0FOq6U5ICzOEL4qCqbM8YrAOqUzP8uGUp/message.json?startDate=2026-06-14T16:59:12-0000&endDate=2026-06-15T16:59:12-0000
+2026-06-15 19:59:12,450 [INFO] No messages found in the SPOT response.
+2026-06-15 19:59:12,451 [INFO] Sync complete. No new points found.
+2026-06-15 20:00:12,674 [INFO] Initiating SPOT feed poll cycle...
+2026-06-15 20:00:12,674 [INFO] Fetching SPOT feed data from URL: https://api.findmespot.com/spot-main-web/consumer/rest-api/2.0/public/feed/0FOq6U5ICzOEL4qCqbM8YrAOqUzP8uGUp/message.json?startDate=2026-06-14T17:00:12-0000&endDate=2026-06-15T17:00:12-0000
+2026-06-15 20:00:12,950 [INFO] No messages found in the SPOT response.
+2026-06-15 20:00:12,951 [INFO] Sync complete. No new points found.
+2026-06-15 20:01:13,155 [INFO] Initiating SPOT feed poll cycle...
+2026-06-15 20:01:13,155 [INFO] Fetching SPOT feed data from URL: https://api.findmespot.com/spot-main-web/consumer/rest-api/2.0/public/feed/0FOq6U5ICzOEL4qCqbM8YrAOqUzP8uGUp/message.json?startDate=2026-06-14T17:01:13-0000&endDate=2026-06-15T17:01:13-0000
+2026-06-15 20:01:13,431 [INFO] No messages found in the SPOT response.
+2026-06-15 20:01:13,431 [INFO] Sync complete. No new points found.
+2026-06-15 20:02:13,664 [INFO] Initiating SPOT feed poll cycle...
+2026-06-15 20:02:13,664 [INFO] Fetching SPOT feed data from URL: https://api.findmespot.com/spot-main-web/consumer/rest-api/2.0/public/feed/0FOq6U5ICzOEL4qCqbM8YrAOqUzP8uGUp/message.json?startDate=2026-06-14T17:02:13-0000&endDate=2026-06-15T17:02:13-0000
+2026-06-15 20:02:14,059 [INFO] No messages found in the SPOT response.
+2026-06-15 20:02:14,060 [INFO] Sync complete. No new points found.
+2026-06-15 20:03:14,254 [INFO] Initiating SPOT feed poll cycle...
+2026-06-15 20:03:14,254 [INFO] Fetching SPOT feed data from URL: https://api.findmespot.com/spot-main-web/consumer/rest-api/2.0/public/feed/0FOq6U5ICzOEL4qCqbM8YrAOqUzP8uGUp/message.json?startDate=2026-06-14T17:03:14-0000&endDate=2026-06-15T17:03:14-0000
+2026-06-15 20:03:14,556 [INFO] No messages found in the SPOT response.
+2026-06-15 20:03:14,557 [INFO] Sync complete. No new points found.
+2026-06-15 20:04:14,761 [INFO] Initiating SPOT feed poll cycle...
+2026-06-15 20:04:14,762 [INFO] Fetching SPOT feed data from URL: https://api.findmespot.com/spot-main-web/consumer/rest-api/2.0/public/feed/0FOq6U5ICzOEL4qCqbM8YrAOqUzP8uGUp/message.json?startDate=2026-06-14T17:04:14-0000&endDate=2026-06-15T17:04:14-0000
+2026-06-15 20:04:14,985 [INFO] No messages found in the SPOT response.
+2026-06-15 20:04:14,985 [INFO] Sync complete. No new points found.
+2026-06-15 20:05:15,206 [INFO] Initiating SPOT feed poll cycle...
+2026-06-15 20:05:15,207 [INFO] Fetching SPOT feed data from URL: https://api.findmespot.com/spot-main-web/consumer/rest-api/2.0/public/feed/0FOq6U5ICzOEL4qCqbM8YrAOqUzP8uGUp/message.json?startDate=2026-06-14T17:05:15-0000&endDate=2026-06-15T17:05:15-0000
+2026-06-15 20:05:15,461 [INFO] No messages found in the SPOT response.
+2026-06-15 20:05:15,461 [INFO] Sync complete. No new points found.
+2026-06-15 20:06:15,675 [INFO] Initiating SPOT feed poll cycle...
+2026-06-15 20:06:15,676 [INFO] Fetching SPOT feed data from URL: https://api.findmespot.com/spot-main-web/consumer/rest-api/2.0/public/feed/0FOq6U5ICzOEL4qCqbM8YrAOqUzP8uGUp/message.json?startDate=2026-06-14T17:06:15-0000&endDate=2026-06-15T17:06:15-0000
+2026-06-15 20:06:15,969 [INFO] No messages found in the SPOT response.
+2026-06-15 20:06:15,970 [INFO] Sync complete. No new points found.
+2026-06-15 20:07:16,188 [INFO] Initiating SPOT feed poll cycle...
+2026-06-15 20:07:16,189 [INFO] Fetching SPOT feed data from URL: https://api.findmespot.com/spot-main-web/consumer/rest-api/2.0/public/feed/0FOq6U5ICzOEL4qCqbM8YrAOqUzP8uGUp/message.json?startDate=2026-06-14T17:07:16-0000&endDate=2026-06-15T17:07:16-0000
+2026-06-15 20:07:16,407 [INFO] No messages found in the SPOT response.
+2026-06-15 20:07:16,408 [INFO] Sync complete. No new points found.
+2026-06-15 20:08:16,686 [INFO] Initiating SPOT feed poll cycle...
+2026-06-15 20:08:16,687 [INFO] Fetching SPOT feed data from URL: https://api.findmespot.com/spot-main-web/consumer/rest-api/2.0/public/feed/0FOq6U5ICzOEL4qCqbM8YrAOqUzP8uGUp/message.json?startDate=2026-06-14T17:08:16-0000&endDate=2026-06-15T17:08:16-0000
+2026-06-15 20:08:16,931 [INFO] No messages found in the SPOT response.
+2026-06-15 20:08:16,931 [INFO] Sync complete. No new points found.
+2026-06-15 20:09:17,145 [INFO] Initiating SPOT feed poll cycle...
+2026-06-15 20:09:17,145 [INFO] Fetching SPOT feed data from URL: https://api.findmespot.com/spot-main-web/consumer/rest-api/2.0/public/feed/0FOq6U5ICzOEL4qCqbM8YrAOqUzP8uGUp/message.json?startDate=2026-06-14T17:09:17-0000&endDate=2026-06-15T17:09:17-0000
+2026-06-15 20:09:17,425 [INFO] No messages found in the SPOT response.
+2026-06-15 20:09:17,425 [INFO] Sync complete. No new points found.
+2026-06-15 20:10:17,653 [INFO] Initiating SPOT feed poll cycle...
+2026-06-15 20:10:17,654 [INFO] Fetching SPOT feed data from URL: https://api.findmespot.com/spot-main-web/consumer/rest-api/2.0/public/feed/0FOq6U5ICzOEL4qCqbM8YrAOqUzP8uGUp/message.json?startDate=2026-06-14T17:10:17-0000&endDate=2026-06-15T17:10:17-0000
+2026-06-15 20:10:17,937 [INFO] No messages found in the SPOT response.
+2026-06-15 20:10:17,937 [INFO] Sync complete. No new points found.
+2026-06-15 20:11:18,165 [INFO] Initiating SPOT feed poll cycle...
+2026-06-15 20:11:18,166 [INFO] Fetching SPOT feed data from URL: https://api.findmespot.com/spot-main-web/consumer/rest-api/2.0/public/feed/0FOq6U5ICzOEL4qCqbM8YrAOqUzP8uGUp/message.json?startDate=2026-06-14T17:11:18-0000&endDate=2026-06-15T17:11:18-0000
+2026-06-15 20:11:18,377 [INFO] No messages found in the SPOT response.
+2026-06-15 20:11:18,378 [INFO] Sync complete. No new points found.
+2026-06-15 20:12:18,584 [INFO] Initiating SPOT feed poll cycle...
+2026-06-15 20:12:18,585 [INFO] Fetching SPOT feed data from URL: https://api.findmespot.com/spot-main-web/consumer/rest-api/2.0/public/feed/0FOq6U5ICzOEL4qCqbM8YrAOqUzP8uGUp/message.json?startDate=2026-06-14T17:12:18-0000&endDate=2026-06-15T17:12:18-0000
+2026-06-15 20:12:18,822 [INFO] No messages found in the SPOT response.
+2026-06-15 20:12:18,822 [INFO] Sync complete. No new points found.
+2026-06-15 20:13:19,039 [INFO] Initiating SPOT feed poll cycle...
+2026-06-15 20:13:19,039 [INFO] Fetching SPOT feed data from URL: https://api.findmespot.com/spot-main-web/consumer/rest-api/2.0/public/feed/0FOq6U5ICzOEL4qCqbM8YrAOqUzP8uGUp/message.json?startDate=2026-06-14T17:13:19-0000&endDate=2026-06-15T17:13:19-0000
+2026-06-15 20:13:19,254 [INFO] No messages found in the SPOT response.
+2026-06-15 20:13:19,254 [INFO] Sync complete. No new points found.
+2026-06-15 20:14:19,472 [INFO] Initiating SPOT feed poll cycle...
+2026-06-15 20:14:19,473 [INFO] Fetching SPOT feed data from URL: https://api.findmespot.com/spot-main-web/consumer/rest-api/2.0/public/feed/0FOq6U5ICzOEL4qCqbM8YrAOqUzP8uGUp/message.json?startDate=2026-06-14T17:14:19-0000&endDate=2026-06-15T17:14:19-0000
+2026-06-15 20:14:19,744 [INFO] No messages found in the SPOT response.
+2026-06-15 20:14:19,744 [INFO] Sync complete. No new points found.
+2026-06-15 20:15:19,944 [INFO] Initiating SPOT feed poll cycle...
+2026-06-15 20:15:19,946 [INFO] Fetching SPOT feed data from URL: https://api.findmespot.com/spot-main-web/consumer/rest-api/2.0/public/feed/0FOq6U5ICzOEL4qCqbM8YrAOqUzP8uGUp/message.json?startDate=2026-06-14T17:15:19-0000&endDate=2026-06-15T17:15:19-0000
+2026-06-15 20:15:20,224 [INFO] No messages found in the SPOT response.
+2026-06-15 20:15:20,224 [INFO] Sync complete. No new points found.
+2026-06-15 20:16:20,446 [INFO] Initiating SPOT feed poll cycle...
+2026-06-15 20:16:20,447 [INFO] Fetching SPOT feed data from URL: https://api.findmespot.com/spot-main-web/consumer/rest-api/2.0/public/feed/0FOq6U5ICzOEL4qCqbM8YrAOqUzP8uGUp/message.json?startDate=2026-06-14T17:16:20-0000&endDate=2026-06-15T17:16:20-0000
+2026-06-15 20:16:20,658 [INFO] No messages found in the SPOT response.
+2026-06-15 20:16:20,658 [INFO] Sync complete. No new points found.
+2026-06-15 20:17:20,879 [INFO] Initiating SPOT feed poll cycle...
+2026-06-15 20:17:20,880 [INFO] Fetching SPOT feed data from URL: https://api.findmespot.com/spot-main-web/consumer/rest-api/2.0/public/feed/0FOq6U5ICzOEL4qCqbM8YrAOqUzP8uGUp/message.json?startDate=2026-06-14T17:17:20-0000&endDate=2026-06-15T17:17:20-0000
+2026-06-15 20:17:21,893 [INFO] No messages found in the SPOT response.
+2026-06-15 20:17:21,893 [INFO] Sync complete. No new points found.
+2026-06-15 20:18:22,090 [INFO] Initiating SPOT feed poll cycle...
+2026-06-15 20:18:22,091 [INFO] Fetching SPOT feed data from URL: https://api.findmespot.com/spot-main-web/consumer/rest-api/2.0/public/feed/0FOq6U5ICzOEL4qCqbM8YrAOqUzP8uGUp/message.json?startDate=2026-06-14T17:18:22-0000&endDate=2026-06-15T17:18:22-0000
+2026-06-15 20:18:22,391 [INFO] No messages found in the SPOT response.
+2026-06-15 20:18:22,392 [INFO] Sync complete. No new points found.
+2026-06-15 20:19:22,615 [INFO] Initiating SPOT feed poll cycle...
+2026-06-15 20:19:22,615 [INFO] Fetching SPOT feed data from URL: https://api.findmespot.com/spot-main-web/consumer/rest-api/2.0/public/feed/0FOq6U5ICzOEL4qCqbM8YrAOqUzP8uGUp/message.json?startDate=2026-06-14T17:19:22-0000&endDate=2026-06-15T17:19:22-0000
+2026-06-15 20:19:22,973 [INFO] No messages found in the SPOT response.
+2026-06-15 20:19:22,974 [INFO] Sync complete. No new points found.
+2026-06-15 20:20:23,181 [INFO] Initiating SPOT feed poll cycle...
+2026-06-15 20:20:23,183 [INFO] Fetching SPOT feed data from URL: https://api.findmespot.com/spot-main-web/consumer/rest-api/2.0/public/feed/0FOq6U5ICzOEL4qCqbM8YrAOqUzP8uGUp/message.json?startDate=2026-06-14T17:20:23-0000&endDate=2026-06-15T17:20:23-0000
+2026-06-15 20:20:23,482 [INFO] No messages found in the SPOT response.
+2026-06-15 20:20:23,483 [INFO] Sync complete. No new points found.
+2026-06-15 20:21:23,703 [INFO] Initiating SPOT feed poll cycle...
+2026-06-15 20:21:23,704 [INFO] Fetching SPOT feed data from URL: https://api.findmespot.com/spot-main-web/consumer/rest-api/2.0/public/feed/0FOq6U5ICzOEL4qCqbM8YrAOqUzP8uGUp/message.json?startDate=2026-06-14T17:21:23-0000&endDate=2026-06-15T17:21:23-0000
+2026-06-15 20:21:24,090 [INFO] No messages found in the SPOT response.
+2026-06-15 20:21:24,091 [INFO] Sync complete. No new points found.
+2026-06-15 20:22:24,308 [INFO] Initiating SPOT feed poll cycle...
+2026-06-15 20:22:24,308 [INFO] Fetching SPOT feed data from URL: https://api.findmespot.com/spot-main-web/consumer/rest-api/2.0/public/feed/0FOq6U5ICzOEL4qCqbM8YrAOqUzP8uGUp/message.json?startDate=2026-06-14T17:22:24-0000&endDate=2026-06-15T17:22:24-0000
+2026-06-15 20:22:24,716 [INFO] No messages found in the SPOT response.
+2026-06-15 20:22:24,717 [INFO] Sync complete. No new points found.
+2026-06-15 20:23:24,912 [INFO] Initiating SPOT feed poll cycle...
+2026-06-15 20:23:24,912 [INFO] Fetching SPOT feed data from URL: https://api.findmespot.com/spot-main-web/consumer/rest-api/2.0/public/feed/0FOq6U5ICzOEL4qCqbM8YrAOqUzP8uGUp/message.json?startDate=2026-06-14T17:23:24-0000&endDate=2026-06-15T17:23:24-0000
+2026-06-15 20:23:25,421 [INFO] No messages found in the SPOT response.
+2026-06-15 20:23:25,421 [INFO] Sync complete. No new points found.
+2026-06-15 20:24:25,653 [INFO] Initiating SPOT feed poll cycle...
+2026-06-15 20:24:25,654 [INFO] Fetching SPOT feed data from URL: https://api.findmespot.com/spot-main-web/consumer/rest-api/2.0/public/feed/0FOq6U5ICzOEL4qCqbM8YrAOqUzP8uGUp/message.json?startDate=2026-06-14T17:24:25-0000&endDate=2026-06-15T17:24:25-0000
+2026-06-15 20:24:26,021 [INFO] No messages found in the SPOT response.
+2026-06-15 20:24:26,022 [INFO] Sync complete. No new points found.
+2026-06-15 20:25:26,223 [INFO] Initiating SPOT feed poll cycle...
+2026-06-15 20:25:26,225 [INFO] Fetching SPOT feed data from URL: https://api.findmespot.com/spot-main-web/consumer/rest-api/2.0/public/feed/0FOq6U5ICzOEL4qCqbM8YrAOqUzP8uGUp/message.json?startDate=2026-06-14T17:25:26-0000&endDate=2026-06-15T17:25:26-0000
+2026-06-15 20:25:26,648 [INFO] No messages found in the SPOT response.
+2026-06-15 20:25:26,648 [INFO] Sync complete. No new points found.
+2026-06-15 20:26:26,882 [INFO] Initiating SPOT feed poll cycle...
+2026-06-15 20:26:26,883 [INFO] Fetching SPOT feed data from URL: https://api.findmespot.com/spot-main-web/consumer/rest-api/2.0/public/feed/0FOq6U5ICzOEL4qCqbM8YrAOqUzP8uGUp/message.json?startDate=2026-06-14T17:26:26-0000&endDate=2026-06-15T17:26:26-0000
+2026-06-15 20:26:27,248 [INFO] No messages found in the SPOT response.
+2026-06-15 20:26:27,249 [INFO] Sync complete. No new points found.
+2026-06-15 20:27:27,467 [INFO] Initiating SPOT feed poll cycle...
+2026-06-15 20:27:27,468 [INFO] Fetching SPOT feed data from URL: https://api.findmespot.com/spot-main-web/consumer/rest-api/2.0/public/feed/0FOq6U5ICzOEL4qCqbM8YrAOqUzP8uGUp/message.json?startDate=2026-06-14T17:27:27-0000&endDate=2026-06-15T17:27:27-0000
+2026-06-15 20:27:27,780 [INFO] No messages found in the SPOT response.
+2026-06-15 20:27:27,781 [INFO] Sync complete. No new points found.
+2026-06-15 20:28:27,980 [INFO] Initiating SPOT feed poll cycle...
+2026-06-15 20:28:27,981 [INFO] Fetching SPOT feed data from URL: https://api.findmespot.com/spot-main-web/consumer/rest-api/2.0/public/feed/0FOq6U5ICzOEL4qCqbM8YrAOqUzP8uGUp/message.json?startDate=2026-06-14T17:28:27-0000&endDate=2026-06-15T17:28:27-0000
+2026-06-15 20:28:28,328 [INFO] No messages found in the SPOT response.
+2026-06-15 20:28:28,328 [INFO] Sync complete. No new points found.
+2026-06-15 20:29:28,555 [INFO] Initiating SPOT feed poll cycle...
+2026-06-15 20:29:28,557 [INFO] Fetching SPOT feed data from URL: https://api.findmespot.com/spot-main-web/consumer/rest-api/2.0/public/feed/0FOq6U5ICzOEL4qCqbM8YrAOqUzP8uGUp/message.json?startDate=2026-06-14T17:29:28-0000&endDate=2026-06-15T17:29:28-0000
+2026-06-15 20:29:28,864 [INFO] No messages found in the SPOT response.
+2026-06-15 20:29:28,864 [INFO] Sync complete. No new points found.
+2026-06-15 20:30:29,051 [INFO] Initiating SPOT feed poll cycle...
+2026-06-15 20:30:29,051 [INFO] Fetching SPOT feed data from URL: https://api.findmespot.com/spot-main-web/consumer/rest-api/2.0/public/feed/0FOq6U5ICzOEL4qCqbM8YrAOqUzP8uGUp/message.json?startDate=2026-06-14T17:30:29-0000&endDate=2026-06-15T17:30:29-0000
+2026-06-15 20:30:29,422 [INFO] No messages found in the SPOT response.
+2026-06-15 20:30:29,423 [INFO] Sync complete. No new points found.
+2026-06-15 20:31:29,632 [INFO] Initiating SPOT feed poll cycle...
+2026-06-15 20:31:29,634 [INFO] Fetching SPOT feed data from URL: https://api.findmespot.com/spot-main-web/consumer/rest-api/2.0/public/feed/0FOq6U5ICzOEL4qCqbM8YrAOqUzP8uGUp/message.json?startDate=2026-06-14T17:31:29-0000&endDate=2026-06-15T17:31:29-0000
+2026-06-15 20:31:29,976 [INFO] No messages found in the SPOT response.
+2026-06-15 20:31:29,977 [INFO] Sync complete. No new points found.
+2026-06-15 20:32:30,197 [INFO] Initiating SPOT feed poll cycle...
+2026-06-15 20:32:30,198 [INFO] Fetching SPOT feed data from URL: https://api.findmespot.com/spot-main-web/consumer/rest-api/2.0/public/feed/0FOq6U5ICzOEL4qCqbM8YrAOqUzP8uGUp/message.json?startDate=2026-06-14T17:32:30-0000&endDate=2026-06-15T17:32:30-0000
+2026-06-15 20:32:30,529 [INFO] No messages found in the SPOT response.
+2026-06-15 20:32:30,530 [INFO] Sync complete. No new points found.
+2026-06-15 20:33:30,745 [INFO] Initiating SPOT feed poll cycle...
+2026-06-15 20:33:30,747 [INFO] Fetching SPOT feed data from URL: https://api.findmespot.com/spot-main-web/consumer/rest-api/2.0/public/feed/0FOq6U5ICzOEL4qCqbM8YrAOqUzP8uGUp/message.json?startDate=2026-06-14T17:33:30-0000&endDate=2026-06-15T17:33:30-0000
+2026-06-15 20:33:31,088 [INFO] No messages found in the SPOT response.
+2026-06-15 20:33:31,088 [INFO] Sync complete. No new points found.
+2026-06-15 20:34:31,301 [INFO] Initiating SPOT feed poll cycle...
+2026-06-15 20:34:31,301 [INFO] Fetching SPOT feed data from URL: https://api.findmespot.com/spot-main-web/consumer/rest-api/2.0/public/feed/0FOq6U5ICzOEL4qCqbM8YrAOqUzP8uGUp/message.json?startDate=2026-06-14T17:34:31-0000&endDate=2026-06-15T17:34:31-0000
+2026-06-15 20:34:31,637 [INFO] No messages found in the SPOT response.
+2026-06-15 20:34:31,637 [INFO] Sync complete. No new points found.
+2026-06-15 20:35:31,839 [INFO] Initiating SPOT feed poll cycle...
+2026-06-15 20:35:31,840 [INFO] Fetching SPOT feed data from URL: https://api.findmespot.com/spot-main-web/consumer/rest-api/2.0/public/feed/0FOq6U5ICzOEL4qCqbM8YrAOqUzP8uGUp/message.json?startDate=2026-06-14T17:35:31-0000&endDate=2026-06-15T17:35:31-0000
+2026-06-15 20:35:32,202 [INFO] No messages found in the SPOT response.
+2026-06-15 20:35:32,203 [INFO] Sync complete. No new points found.
+2026-06-15 20:36:32,413 [INFO] Initiating SPOT feed poll cycle...
+2026-06-15 20:36:32,414 [INFO] Fetching SPOT feed data from URL: https://api.findmespot.com/spot-main-web/consumer/rest-api/2.0/public/feed/0FOq6U5ICzOEL4qCqbM8YrAOqUzP8uGUp/message.json?startDate=2026-06-14T17:36:32-0000&endDate=2026-06-15T17:36:32-0000
+2026-06-15 20:36:32,788 [INFO] No messages found in the SPOT response.
+2026-06-15 20:36:32,788 [INFO] Sync complete. No new points found.
+2026-06-15 20:37:33,001 [INFO] Initiating SPOT feed poll cycle...
+2026-06-15 20:37:33,002 [INFO] Fetching SPOT feed data from URL: https://api.findmespot.com/spot-main-web/consumer/rest-api/2.0/public/feed/0FOq6U5ICzOEL4qCqbM8YrAOqUzP8uGUp/message.json?startDate=2026-06-14T17:37:33-0000&endDate=2026-06-15T17:37:33-0000
+2026-06-15 20:37:33,330 [INFO] No messages found in the SPOT response.
+2026-06-15 20:37:33,330 [INFO] Sync complete. No new points found.
+2026-06-15 20:38:33,531 [INFO] Initiating SPOT feed poll cycle...
+2026-06-15 20:38:33,533 [INFO] Fetching SPOT feed data from URL: https://api.findmespot.com/spot-main-web/consumer/rest-api/2.0/public/feed/0FOq6U5ICzOEL4qCqbM8YrAOqUzP8uGUp/message.json?startDate=2026-06-14T17:38:33-0000&endDate=2026-06-15T17:38:33-0000
+2026-06-15 20:38:33,863 [INFO] No messages found in the SPOT response.
+2026-06-15 20:38:33,863 [INFO] Sync complete. No new points found.
+2026-06-15 20:39:34,072 [INFO] Initiating SPOT feed poll cycle...
+2026-06-15 20:39:34,072 [INFO] Fetching SPOT feed data from URL: https://api.findmespot.com/spot-main-web/consumer/rest-api/2.0/public/feed/0FOq6U5ICzOEL4qCqbM8YrAOqUzP8uGUp/message.json?startDate=2026-06-14T17:39:34-0000&endDate=2026-06-15T17:39:34-0000
+2026-06-15 20:39:34,423 [INFO] No messages found in the SPOT response.
+2026-06-15 20:39:34,424 [INFO] Sync complete. No new points found.
+2026-06-15 20:40:34,632 [INFO] Initiating SPOT feed poll cycle...
+2026-06-15 20:40:34,633 [INFO] Fetching SPOT feed data from URL: https://api.findmespot.com/spot-main-web/consumer/rest-api/2.0/public/feed/0FOq6U5ICzOEL4qCqbM8YrAOqUzP8uGUp/message.json?startDate=2026-06-14T17:40:34-0000&endDate=2026-06-15T17:40:34-0000
+2026-06-15 20:40:34,977 [INFO] No messages found in the SPOT response.
+2026-06-15 20:40:34,977 [INFO] Sync complete. No new points found.
+2026-06-15 20:41:35,194 [INFO] Initiating SPOT feed poll cycle...
+2026-06-15 20:41:35,195 [INFO] Fetching SPOT feed data from URL: https://api.findmespot.com/spot-main-web/consumer/rest-api/2.0/public/feed/0FOq6U5ICzOEL4qCqbM8YrAOqUzP8uGUp/message.json?startDate=2026-06-14T17:41:35-0000&endDate=2026-06-15T17:41:35-0000
+2026-06-15 20:41:35,536 [INFO] No messages found in the SPOT response.
+2026-06-15 20:41:35,536 [INFO] Sync complete. No new points found.
+2026-06-15 20:42:35,763 [INFO] Initiating SPOT feed poll cycle...
+2026-06-15 20:42:35,763 [INFO] Fetching SPOT feed data from URL: https://api.findmespot.com/spot-main-web/consumer/rest-api/2.0/public/feed/0FOq6U5ICzOEL4qCqbM8YrAOqUzP8uGUp/message.json?startDate=2026-06-14T17:42:35-0000&endDate=2026-06-15T17:42:35-0000
+2026-06-15 20:42:36,104 [INFO] No messages found in the SPOT response.
+2026-06-15 20:42:36,104 [INFO] Sync complete. No new points found.
+2026-06-15 20:43:36,316 [INFO] Initiating SPOT feed poll cycle...
+2026-06-15 20:43:36,317 [INFO] Fetching SPOT feed data from URL: https://api.findmespot.com/spot-main-web/consumer/rest-api/2.0/public/feed/0FOq6U5ICzOEL4qCqbM8YrAOqUzP8uGUp/message.json?startDate=2026-06-14T17:43:36-0000&endDate=2026-06-15T17:43:36-0000
+2026-06-15 20:43:36,646 [INFO] No messages found in the SPOT response.
+2026-06-15 20:43:36,646 [INFO] Sync complete. No new points found.
+2026-06-15 20:44:36,869 [INFO] Initiating SPOT feed poll cycle...
+2026-06-15 20:44:36,869 [INFO] Fetching SPOT feed data from URL: https://api.findmespot.com/spot-main-web/consumer/rest-api/2.0/public/feed/0FOq6U5ICzOEL4qCqbM8YrAOqUzP8uGUp/message.json?startDate=2026-06-14T17:44:36-0000&endDate=2026-06-15T17:44:36-0000
+2026-06-15 20:44:37,217 [INFO] No messages found in the SPOT response.
+2026-06-15 20:44:37,218 [INFO] Sync complete. No new points found.
+2026-06-15 20:45:37,413 [INFO] Initiating SPOT feed poll cycle...
+2026-06-15 20:45:37,415 [INFO] Fetching SPOT feed data from URL: https://api.findmespot.com/spot-main-web/consumer/rest-api/2.0/public/feed/0FOq6U5ICzOEL4qCqbM8YrAOqUzP8uGUp/message.json?startDate=2026-06-14T17:45:37-0000&endDate=2026-06-15T17:45:37-0000
+2026-06-15 20:45:37,760 [INFO] No messages found in the SPOT response.
+2026-06-15 20:45:37,761 [INFO] Sync complete. No new points found.
+2026-06-15 20:46:37,971 [INFO] Initiating SPOT feed poll cycle...
+2026-06-15 20:46:37,973 [INFO] Fetching SPOT feed data from URL: https://api.findmespot.com/spot-main-web/consumer/rest-api/2.0/public/feed/0FOq6U5ICzOEL4qCqbM8YrAOqUzP8uGUp/message.json?startDate=2026-06-14T17:46:37-0000&endDate=2026-06-15T17:46:37-0000
+2026-06-15 20:46:38,311 [INFO] No messages found in the SPOT response.
+2026-06-15 20:46:38,311 [INFO] Sync complete. No new points found.
+2026-06-15 20:47:38,518 [INFO] Initiating SPOT feed poll cycle...
+2026-06-15 20:47:38,519 [INFO] Fetching SPOT feed data from URL: https://api.findmespot.com/spot-main-web/consumer/rest-api/2.0/public/feed/0FOq6U5ICzOEL4qCqbM8YrAOqUzP8uGUp/message.json?startDate=2026-06-14T17:47:38-0000&endDate=2026-06-15T17:47:38-0000
+2026-06-15 20:47:38,874 [INFO] No messages found in the SPOT response.
+2026-06-15 20:47:38,874 [INFO] Sync complete. No new points found.
+2026-06-15 20:48:39,068 [INFO] Initiating SPOT feed poll cycle...
+2026-06-15 20:48:39,069 [INFO] Fetching SPOT feed data from URL: https://api.findmespot.com/spot-main-web/consumer/rest-api/2.0/public/feed/0FOq6U5ICzOEL4qCqbM8YrAOqUzP8uGUp/message.json?startDate=2026-06-14T17:48:39-0000&endDate=2026-06-15T17:48:39-0000
+2026-06-15 20:48:39,434 [INFO] No messages found in the SPOT response.
+2026-06-15 20:48:39,434 [INFO] Sync complete. No new points found.
+2026-06-15 20:49:39,640 [INFO] Initiating SPOT feed poll cycle...
+2026-06-15 20:49:39,641 [INFO] Fetching SPOT feed data from URL: https://api.findmespot.com/spot-main-web/consumer/rest-api/2.0/public/feed/0FOq6U5ICzOEL4qCqbM8YrAOqUzP8uGUp/message.json?startDate=2026-06-14T17:49:39-0000&endDate=2026-06-15T17:49:39-0000
+2026-06-15 20:49:39,887 [INFO] No messages found in the SPOT response.
+2026-06-15 20:49:39,887 [INFO] Sync complete. No new points found.
+2026-06-15 20:50:40,073 [INFO] Initiating SPOT feed poll cycle...
+2026-06-15 20:50:40,074 [INFO] Fetching SPOT feed data from URL: https://api.findmespot.com/spot-main-web/consumer/rest-api/2.0/public/feed/0FOq6U5ICzOEL4qCqbM8YrAOqUzP8uGUp/message.json?startDate=2026-06-14T17:50:40-0000&endDate=2026-06-15T17:50:40-0000
+2026-06-15 20:50:40,480 [INFO] No messages found in the SPOT response.
+2026-06-15 20:50:40,480 [INFO] Sync complete. No new points found.
+2026-06-15 20:51:40,671 [INFO] Initiating SPOT feed poll cycle...
+2026-06-15 20:51:40,673 [INFO] Fetching SPOT feed data from URL: https://api.findmespot.com/spot-main-web/consumer/rest-api/2.0/public/feed/0FOq6U5ICzOEL4qCqbM8YrAOqUzP8uGUp/message.json?startDate=2026-06-14T17:51:40-0000&endDate=2026-06-15T17:51:40-0000
+2026-06-15 20:51:41,104 [INFO] No messages found in the SPOT response.
+2026-06-15 20:51:41,104 [INFO] Sync complete. No new points found.
+2026-06-15 20:52:41,318 [INFO] Initiating SPOT feed poll cycle...
+2026-06-15 20:52:41,318 [INFO] Fetching SPOT feed data from URL: https://api.findmespot.com/spot-main-web/consumer/rest-api/2.0/public/feed/0FOq6U5ICzOEL4qCqbM8YrAOqUzP8uGUp/message.json?startDate=2026-06-14T17:52:41-0000&endDate=2026-06-15T17:52:41-0000
+2026-06-15 20:52:41,662 [INFO] No messages found in the SPOT response.
+2026-06-15 20:52:41,663 [INFO] Sync complete. No new points found.
+2026-06-15 20:53:41,870 [INFO] Initiating SPOT feed poll cycle...
+2026-06-15 20:53:41,871 [INFO] Fetching SPOT feed data from URL: https://api.findmespot.com/spot-main-web/consumer/rest-api/2.0/public/feed/0FOq6U5ICzOEL4qCqbM8YrAOqUzP8uGUp/message.json?startDate=2026-06-14T17:53:41-0000&endDate=2026-06-15T17:53:41-0000
+2026-06-15 20:53:42,206 [INFO] No messages found in the SPOT response.
+2026-06-15 20:53:42,206 [INFO] Sync complete. No new points found.
+2026-06-15 20:54:42,422 [INFO] Initiating SPOT feed poll cycle...
+2026-06-15 20:54:42,424 [INFO] Fetching SPOT feed data from URL: https://api.findmespot.com/spot-main-web/consumer/rest-api/2.0/public/feed/0FOq6U5ICzOEL4qCqbM8YrAOqUzP8uGUp/message.json?startDate=2026-06-14T17:54:42-0000&endDate=2026-06-15T17:54:42-0000
+2026-06-15 20:54:42,761 [INFO] No messages found in the SPOT response.
+2026-06-15 20:54:42,761 [INFO] Sync complete. No new points found.
+2026-06-15 20:55:42,964 [INFO] Initiating SPOT feed poll cycle...
+2026-06-15 20:55:42,965 [INFO] Fetching SPOT feed data from URL: https://api.findmespot.com/spot-main-web/consumer/rest-api/2.0/public/feed/0FOq6U5ICzOEL4qCqbM8YrAOqUzP8uGUp/message.json?startDate=2026-06-14T17:55:42-0000&endDate=2026-06-15T17:55:42-0000
+2026-06-15 20:55:43,318 [INFO] No messages found in the SPOT response.
+2026-06-15 20:55:43,318 [INFO] Sync complete. No new points found.
+2026-06-15 20:56:43,561 [INFO] Initiating SPOT feed poll cycle...
+2026-06-15 20:56:43,562 [INFO] Fetching SPOT feed data from URL: https://api.findmespot.com/spot-main-web/consumer/rest-api/2.0/public/feed/0FOq6U5ICzOEL4qCqbM8YrAOqUzP8uGUp/message.json?startDate=2026-06-14T17:56:43-0000&endDate=2026-06-15T17:56:43-0000
+2026-06-15 20:56:43,870 [INFO] No messages found in the SPOT response.
+2026-06-15 20:56:43,871 [INFO] Sync complete. No new points found.
+2026-06-15 20:57:44,100 [INFO] Initiating SPOT feed poll cycle...
+2026-06-15 20:57:44,100 [INFO] Fetching SPOT feed data from URL: https://api.findmespot.com/spot-main-web/consumer/rest-api/2.0/public/feed/0FOq6U5ICzOEL4qCqbM8YrAOqUzP8uGUp/message.json?startDate=2026-06-14T17:57:44-0000&endDate=2026-06-15T17:57:44-0000
+2026-06-15 20:57:44,431 [INFO] No messages found in the SPOT response.
+2026-06-15 20:57:44,432 [INFO] Sync complete. No new points found.
+2026-06-15 20:58:44,625 [INFO] Initiating SPOT feed poll cycle...
+2026-06-15 20:58:44,627 [INFO] Fetching SPOT feed data from URL: https://api.findmespot.com/spot-main-web/consumer/rest-api/2.0/public/feed/0FOq6U5ICzOEL4qCqbM8YrAOqUzP8uGUp/message.json?startDate=2026-06-14T17:58:44-0000&endDate=2026-06-15T17:58:44-0000
+2026-06-15 20:58:44,975 [INFO] No messages found in the SPOT response.
+2026-06-15 20:58:44,975 [INFO] Sync complete. No new points found.
+2026-06-15 20:59:45,176 [INFO] Initiating SPOT feed poll cycle...
+2026-06-15 20:59:45,176 [INFO] Fetching SPOT feed data from URL: https://api.findmespot.com/spot-main-web/consumer/rest-api/2.0/public/feed/0FOq6U5ICzOEL4qCqbM8YrAOqUzP8uGUp/message.json?startDate=2026-06-14T17:59:45-0000&endDate=2026-06-15T17:59:45-0000
+2026-06-15 20:59:45,541 [INFO] No messages found in the SPOT response.
+2026-06-15 20:59:45,541 [INFO] Sync complete. No new points found.
+2026-06-15 21:00:45,778 [INFO] Initiating SPOT feed poll cycle...
+2026-06-15 21:00:45,780 [INFO] Fetching SPOT feed data from URL: https://api.findmespot.com/spot-main-web/consumer/rest-api/2.0/public/feed/0FOq6U5ICzOEL4qCqbM8YrAOqUzP8uGUp/message.json?startDate=2026-06-14T18:00:45-0000&endDate=2026-06-15T18:00:45-0000
+2026-06-15 21:00:46,096 [INFO] No messages found in the SPOT response.
+2026-06-15 21:00:46,097 [INFO] Sync complete. No new points found.
+2026-06-15 21:01:46,307 [INFO] Initiating SPOT feed poll cycle...
+2026-06-15 21:01:46,309 [INFO] Fetching SPOT feed data from URL: https://api.findmespot.com/spot-main-web/consumer/rest-api/2.0/public/feed/0FOq6U5ICzOEL4qCqbM8YrAOqUzP8uGUp/message.json?startDate=2026-06-14T18:01:46-0000&endDate=2026-06-15T18:01:46-0000
+2026-06-15 21:01:46,657 [INFO] No messages found in the SPOT response.
+2026-06-15 21:01:46,657 [INFO] Sync complete. No new points found.
+2026-06-15 21:02:46,874 [INFO] Initiating SPOT feed poll cycle...
+2026-06-15 21:02:46,875 [INFO] Fetching SPOT feed data from URL: https://api.findmespot.com/spot-main-web/consumer/rest-api/2.0/public/feed/0FOq6U5ICzOEL4qCqbM8YrAOqUzP8uGUp/message.json?startDate=2026-06-14T18:02:46-0000&endDate=2026-06-15T18:02:46-0000
+2026-06-15 21:02:47,189 [INFO] No messages found in the SPOT response.
+2026-06-15 21:02:47,189 [INFO] Sync complete. No new points found.
+2026-06-15 21:03:47,394 [INFO] Initiating SPOT feed poll cycle...
+2026-06-15 21:03:47,395 [INFO] Fetching SPOT feed data from URL: https://api.findmespot.com/spot-main-web/consumer/rest-api/2.0/public/feed/0FOq6U5ICzOEL4qCqbM8YrAOqUzP8uGUp/message.json?startDate=2026-06-14T18:03:47-0000&endDate=2026-06-15T18:03:47-0000
+2026-06-15 21:03:47,766 [INFO] No messages found in the SPOT response.
+2026-06-15 21:03:47,766 [INFO] Sync complete. No new points found.
+2026-06-15 21:04:47,971 [INFO] Initiating SPOT feed poll cycle...
+2026-06-15 21:04:47,973 [INFO] Fetching SPOT feed data from URL: https://api.findmespot.com/spot-main-web/consumer/rest-api/2.0/public/feed/0FOq6U5ICzOEL4qCqbM8YrAOqUzP8uGUp/message.json?startDate=2026-06-14T18:04:47-0000&endDate=2026-06-15T18:04:47-0000
+2026-06-15 21:04:48,321 [INFO] No messages found in the SPOT response.
+2026-06-15 21:04:48,321 [INFO] Sync complete. No new points found.
+2026-06-15 21:05:48,530 [INFO] Initiating SPOT feed poll cycle...
+2026-06-15 21:05:48,531 [INFO] Fetching SPOT feed data from URL: https://api.findmespot.com/spot-main-web/consumer/rest-api/2.0/public/feed/0FOq6U5ICzOEL4qCqbM8YrAOqUzP8uGUp/message.json?startDate=2026-06-14T18:05:48-0000&endDate=2026-06-15T18:05:48-0000
+2026-06-15 21:05:48,877 [INFO] No messages found in the SPOT response.
+2026-06-15 21:05:48,877 [INFO] Sync complete. No new points found.
+2026-06-15 21:06:49,089 [INFO] Initiating SPOT feed poll cycle...
+2026-06-15 21:06:49,089 [INFO] Fetching SPOT feed data from URL: https://api.findmespot.com/spot-main-web/consumer/rest-api/2.0/public/feed/0FOq6U5ICzOEL4qCqbM8YrAOqUzP8uGUp/message.json?startDate=2026-06-14T18:06:49-0000&endDate=2026-06-15T18:06:49-0000
+2026-06-15 21:06:49,436 [INFO] No messages found in the SPOT response.
+2026-06-15 21:06:49,437 [INFO] Sync complete. No new points found.
+2026-06-15 21:07:49,663 [INFO] Initiating SPOT feed poll cycle...
+2026-06-15 21:07:49,664 [INFO] Fetching SPOT feed data from URL: https://api.findmespot.com/spot-main-web/consumer/rest-api/2.0/public/feed/0FOq6U5ICzOEL4qCqbM8YrAOqUzP8uGUp/message.json?startDate=2026-06-14T18:07:49-0000&endDate=2026-06-15T18:07:49-0000
+2026-06-15 21:07:49,989 [INFO] No messages found in the SPOT response.
+2026-06-15 21:07:49,990 [INFO] Sync complete. No new points found.
+2026-06-15 21:08:50,193 [INFO] Initiating SPOT feed poll cycle...
+2026-06-15 21:08:50,194 [INFO] Fetching SPOT feed data from URL: https://api.findmespot.com/spot-main-web/consumer/rest-api/2.0/public/feed/0FOq6U5ICzOEL4qCqbM8YrAOqUzP8uGUp/message.json?startDate=2026-06-14T18:08:50-0000&endDate=2026-06-15T18:08:50-0000
+2026-06-15 21:08:50,548 [INFO] No messages found in the SPOT response.
+2026-06-15 21:08:50,548 [INFO] Sync complete. No new points found.
+2026-06-15 21:09:50,768 [INFO] Initiating SPOT feed poll cycle...
+2026-06-15 21:09:50,768 [INFO] Fetching SPOT feed data from URL: https://api.findmespot.com/spot-main-web/consumer/rest-api/2.0/public/feed/0FOq6U5ICzOEL4qCqbM8YrAOqUzP8uGUp/message.json?startDate=2026-06-14T18:09:50-0000&endDate=2026-06-15T18:09:50-0000
+2026-06-15 21:09:51,101 [INFO] No messages found in the SPOT response.
+2026-06-15 21:09:51,102 [INFO] Sync complete. No new points found.
+2026-06-15 21:10:51,296 [INFO] Initiating SPOT feed poll cycle...
+2026-06-15 21:10:51,296 [INFO] Fetching SPOT feed data from URL: https://api.findmespot.com/spot-main-web/consumer/rest-api/2.0/public/feed/0FOq6U5ICzOEL4qCqbM8YrAOqUzP8uGUp/message.json?startDate=2026-06-14T18:10:51-0000&endDate=2026-06-15T18:10:51-0000
+2026-06-15 21:10:51,661 [INFO] No messages found in the SPOT response.
+2026-06-15 21:10:51,661 [INFO] Sync complete. No new points found.
+2026-06-15 21:11:51,868 [INFO] Initiating SPOT feed poll cycle...
+2026-06-15 21:11:51,869 [INFO] Fetching SPOT feed data from URL: https://api.findmespot.com/spot-main-web/consumer/rest-api/2.0/public/feed/0FOq6U5ICzOEL4qCqbM8YrAOqUzP8uGUp/message.json?startDate=2026-06-14T18:11:51-0000&endDate=2026-06-15T18:11:51-0000
+2026-06-15 21:11:52,211 [INFO] No messages found in the SPOT response.
+2026-06-15 21:11:52,212 [INFO] Sync complete. No new points found.
+2026-06-15 21:12:52,505 [INFO] Initiating SPOT feed poll cycle...
+2026-06-15 21:12:52,505 [INFO] Fetching SPOT feed data from URL: https://api.findmespot.com/spot-main-web/consumer/rest-api/2.0/public/feed/0FOq6U5ICzOEL4qCqbM8YrAOqUzP8uGUp/message.json?startDate=2026-06-14T18:12:52-0000&endDate=2026-06-15T18:12:52-0000
+2026-06-15 21:12:52,837 [INFO] No messages found in the SPOT response.
+2026-06-15 21:12:52,837 [INFO] Sync complete. No new points found.
+2026-06-15 21:13:53,048 [INFO] Initiating SPOT feed poll cycle...
+2026-06-15 21:13:53,049 [INFO] Fetching SPOT feed data from URL: https://api.findmespot.com/spot-main-web/consumer/rest-api/2.0/public/feed/0FOq6U5ICzOEL4qCqbM8YrAOqUzP8uGUp/message.json?startDate=2026-06-14T18:13:53-0000&endDate=2026-06-15T18:13:53-0000
+2026-06-15 21:13:53,381 [INFO] No messages found in the SPOT response.
+2026-06-15 21:13:53,381 [INFO] Sync complete. No new points found.
+2026-06-15 21:14:53,625 [INFO] Initiating SPOT feed poll cycle...
+2026-06-15 21:14:53,625 [INFO] Fetching SPOT feed data from URL: https://api.findmespot.com/spot-main-web/consumer/rest-api/2.0/public/feed/0FOq6U5ICzOEL4qCqbM8YrAOqUzP8uGUp/message.json?startDate=2026-06-14T18:14:53-0000&endDate=2026-06-15T18:14:53-0000
+2026-06-15 21:14:53,938 [INFO] No messages found in the SPOT response.
+2026-06-15 21:14:53,938 [INFO] Sync complete. No new points found.
+2026-06-15 21:15:54,123 [INFO] Initiating SPOT feed poll cycle...
+2026-06-15 21:15:54,123 [INFO] Fetching SPOT feed data from URL: https://api.findmespot.com/spot-main-web/consumer/rest-api/2.0/public/feed/0FOq6U5ICzOEL4qCqbM8YrAOqUzP8uGUp/message.json?startDate=2026-06-14T18:15:54-0000&endDate=2026-06-15T18:15:54-0000
+2026-06-15 21:15:54,493 [INFO] No messages found in the SPOT response.
+2026-06-15 21:15:54,493 [INFO] Sync complete. No new points found.
+2026-06-15 21:16:54,705 [INFO] Initiating SPOT feed poll cycle...
+2026-06-15 21:16:54,706 [INFO] Fetching SPOT feed data from URL: https://api.findmespot.com/spot-main-web/consumer/rest-api/2.0/public/feed/0FOq6U5ICzOEL4qCqbM8YrAOqUzP8uGUp/message.json?startDate=2026-06-14T18:16:54-0000&endDate=2026-06-15T18:16:54-0000
+2026-06-15 21:16:55,050 [INFO] No messages found in the SPOT response.
+2026-06-15 21:16:55,050 [INFO] Sync complete. No new points found.
+2026-06-15 21:17:55,258 [INFO] Initiating SPOT feed poll cycle...
+2026-06-15 21:17:55,258 [INFO] Fetching SPOT feed data from URL: https://api.findmespot.com/spot-main-web/consumer/rest-api/2.0/public/feed/0FOq6U5ICzOEL4qCqbM8YrAOqUzP8uGUp/message.json?startDate=2026-06-14T18:17:55-0000&endDate=2026-06-15T18:17:55-0000
+2026-06-15 21:17:55,605 [INFO] No messages found in the SPOT response.
+2026-06-15 21:17:55,606 [INFO] Sync complete. No new points found.
+2026-06-15 21:18:55,816 [INFO] Initiating SPOT feed poll cycle...
+2026-06-15 21:18:55,816 [INFO] Fetching SPOT feed data from URL: https://api.findmespot.com/spot-main-web/consumer/rest-api/2.0/public/feed/0FOq6U5ICzOEL4qCqbM8YrAOqUzP8uGUp/message.json?startDate=2026-06-14T18:18:55-0000&endDate=2026-06-15T18:18:55-0000
+2026-06-15 21:18:56,160 [INFO] No messages found in the SPOT response.
+2026-06-15 21:18:56,161 [INFO] Sync complete. No new points found.
+2026-06-15 21:19:56,347 [INFO] Initiating SPOT feed poll cycle...
+2026-06-15 21:19:56,348 [INFO] Fetching SPOT feed data from URL: https://api.findmespot.com/spot-main-web/consumer/rest-api/2.0/public/feed/0FOq6U5ICzOEL4qCqbM8YrAOqUzP8uGUp/message.json?startDate=2026-06-14T18:19:56-0000&endDate=2026-06-15T18:19:56-0000
+2026-06-15 21:19:56,766 [INFO] No messages found in the SPOT response.
+2026-06-15 21:19:56,766 [INFO] Sync complete. No new points found.
+2026-06-15 21:20:56,982 [INFO] Initiating SPOT feed poll cycle...
+2026-06-15 21:20:56,982 [INFO] Fetching SPOT feed data from URL: https://api.findmespot.com/spot-main-web/consumer/rest-api/2.0/public/feed/0FOq6U5ICzOEL4qCqbM8YrAOqUzP8uGUp/message.json?startDate=2026-06-14T18:20:56-0000&endDate=2026-06-15T18:20:56-0000
+2026-06-15 21:20:57,349 [INFO] No messages found in the SPOT response.
+2026-06-15 21:20:57,349 [INFO] Sync complete. No new points found.
+2026-06-15 21:21:57,558 [INFO] Initiating SPOT feed poll cycle...
+2026-06-15 21:21:57,559 [INFO] Fetching SPOT feed data from URL: https://api.findmespot.com/spot-main-web/consumer/rest-api/2.0/public/feed/0FOq6U5ICzOEL4qCqbM8YrAOqUzP8uGUp/message.json?startDate=2026-06-14T18:21:57-0000&endDate=2026-06-15T18:21:57-0000
+2026-06-15 21:21:57,855 [INFO] No messages found in the SPOT response.
+2026-06-15 21:21:57,855 [INFO] Sync complete. No new points found.
+2026-06-15 21:22:58,057 [INFO] Initiating SPOT feed poll cycle...
+2026-06-15 21:22:58,058 [INFO] Fetching SPOT feed data from URL: https://api.findmespot.com/spot-main-web/consumer/rest-api/2.0/public/feed/0FOq6U5ICzOEL4qCqbM8YrAOqUzP8uGUp/message.json?startDate=2026-06-14T18:22:58-0000&endDate=2026-06-15T18:22:58-0000
+2026-06-15 21:22:58,388 [INFO] No messages found in the SPOT response.
+2026-06-15 21:22:58,388 [INFO] Sync complete. No new points found.
