@@ -149,24 +149,20 @@ def index():
             </div>
             """
             
-            # Prominent default marker for the latest location (safest against CDN font-blocking)
+            # Prominent star marker for the latest location
             if idx == len(filtered_messages) - 1:
                 folium.Marker(
                     location=[lat, lon],
                     popup=folium.Popup(popup_html, max_width=250),
-                    tooltip=f"LATEST - {time_str}"
+                    tooltip=f"LATEST - {time_str}",
+                    icon=folium.Icon(color="red", icon="star", prefix="fa")
                 ).add_to(m)
             else:
-                # Beautiful vector-based CircleMarker (renders natively as SVGs with zero external font/CSS requests)
-                folium.CircleMarker(
+                folium.Marker(
                     location=[lat, lon],
-                    radius=6,
                     popup=folium.Popup(popup_html, max_width=250),
                     tooltip=f"Point {row['id']} - {time_str}",
-                    color=get_marker_color(msg_type),
-                    fill=True,
-                    fill_color=get_marker_color(msg_type),
-                    fill_opacity=0.8
+                    icon=folium.Icon(color=get_marker_color(msg_type), icon="info-sign")
                 ).add_to(m)
                 
         # Render map HTML as a sandboxed iframe snippet
