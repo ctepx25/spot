@@ -165,8 +165,8 @@ def index():
                     icon=folium.Icon(color=get_marker_color(msg_type), icon="info-sign")
                 ).add_to(m)
                 
-        # Render map HTML
-        map_html = m.get_root().render()
+        # Render map HTML as a sandboxed iframe snippet
+        map_html = m._repr_html_()
         
     return render_template(
         "index.html",
