@@ -101,10 +101,6 @@
             <!-- Left Sidebar Controls -->
             <div class="col-lg-3 col-md-4 mb-4">
                 <div class="sidebar">
-                    <div class="text-center mb-4">
-                        <img src="https://img.icons8.com/color/96/000000/gps-device.png" alt="GPS Tracker" width="80">
-                        <h5 class="mt-2 main-title">Tracker Settings</h5>
-                    </div>
 
                     <form method="GET" action="" id="filter-form">
                         <!-- Date Selector -->
@@ -142,12 +138,6 @@
 
             <!-- Right Dashboard View -->
             <div class="col-lg-9 col-md-8">
-                <div class="row">
-                    <div class="col-12">
-                        <h2 class="main-title mb-1">📍 Live tracking & Path Analysis</h2>
-                        <p class="subtitle">GPS records and telemetry mapping powered by Flask & Nginx.</p>
-                    </div>
-                </div>
 
                 <!-- Global Battery Warning Alert -->
                 {% if battery_status == "LOW" %}
@@ -203,8 +193,7 @@
                 <!-- Interactive Map Section -->
                 {% if points_count > 0 %}
                 <div class="card mb-4">
-                    <div class="card-header bg-white py-3 fw-bold d-flex justify-content-between align-items-center">
-                        <span><i class="fa-solid fa-map-location-dot text-primary me-1"></i> Map Route Visualization</span>
+                    <div class="card-header bg-white py-3 d-flex justify-content-end align-items-center">
                         <div class="d-flex gap-2">
                             <span class="badge bg-success"><i class="fa-solid fa-circle me-1"></i> OK Point</span>
                             <span class="badge bg-primary"><i class="fa-solid fa-circle me-1"></i> TRACK Point</span>
