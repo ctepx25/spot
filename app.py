@@ -109,6 +109,15 @@ def index():
             overlay=False,
             control=True
         ).add_to(m)
+
+       folium.TileLayer(
+            tiles= 'Cartodb Positron',
+            name = 'Light',
+            overlay = False,
+            control = True,
+            show=True
+        ).add_to(m)
+
         folium.LayerControl().add_to(m)
         
         # Draw PolyLine connecting points
