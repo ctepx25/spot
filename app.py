@@ -20,7 +20,7 @@ logger = logging.getLogger("SPOT_Flask")
 load_dotenv()
 
 app = Flask(__name__)
-app.wsgi_app = ProxyFix(app.wsgi_app, x_proto=1, x_host=1)
+app.wsgi_app = ProxyFix(app.wsgi_app, x_proto=1, x_host=1, x_port=1, x_prefix=1)
 
 # --- Configuration & Paths ---
 DB_PATH = os.path.join(os.path.dirname(__file__), "data", "tracking.db")
@@ -100,16 +100,10 @@ def index():
         center_lat = latest_point['latitude']
         center_lon = latest_point['longitude']
         
-        m = folium.Map(
-            location=[center_lat, center_lon],
-            zoom_start=13,
-            control_scale=True,
-            tiles="https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png",
-            attr='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/attributions">CARTO</a>',
-            name="Cartodb Positron"
-        )
+        m = folium.Map(location=[center_lat, center_lon], zoom_start=13, control_scale=True, tiles=None)
         
         # Layers
+        folium.TileLayer('Cartodb Positron', name="Cartodb Positron").add_to(m)
         folium.TileLayer('openstreetmap', name="OpenStreetMap").add_to(m)
         folium.TileLayer(
             tiles='https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}',

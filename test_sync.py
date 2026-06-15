@@ -96,7 +96,7 @@ def test_app_map_and_proxy_config():
         assert data["host"] == "my-secure-proxy.com", f"Flask should detect Host from X-Forwarded-Host. Got: {data['host']}"
     print("✅ Verified: Flask correctly handles forwarded proxy headers through ProxyFix.")
 
-    # 3. Verify Map tile layers are generated with HTTPS-secured Cartodb Positron
+    # 3. Verify Map tile layers are generated with HTTPS-secured Cartodb Positron and user-friendly name
     with app.test_client() as client:
         # Request the index page which renders the map
         response = client.get("/")
@@ -107,7 +107,11 @@ def test_app_map_and_proxy_config():
         assert "basemaps.cartocdn.com/light_all" in html_content, "Map HTML should render Cartodb Positron basemap tiles URL."
         # Ensure it is secure HTTPS URL
         assert "https://" in html_content, "Cartodb Positron tiles should use HTTPS URL scheme."
-    print("✅ Verified: Map renders with secure HTTPS Cartodb Positron tile URLs.")
+        
+        # Ensure layer name is clean and NOT the raw URL
+        assert "Cartodb Positron" in html_content, "Layer control name 'Cartodb Positron' should be present."
+        assert "https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png\":" not in html_content, "Raw URL should not be used as a layer name."
+    print("✅ Verified: Map renders with secure HTTPS Cartodb Positron tile URLs and a clean display name.")
 
 if __name__ == "__main__":
     run_test()
