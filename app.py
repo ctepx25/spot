@@ -110,7 +110,7 @@ def index():
             control=True
         ).add_to(m)
 
-       folium.TileLayer(
+        folium.TileLayer(
             tiles= 'Cartodb Positron',
             name = 'Light',
             overlay = False,
