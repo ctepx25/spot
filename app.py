@@ -98,7 +98,7 @@ def index():
         center_lat = latest_point['latitude']
         center_lon = latest_point['longitude']
         
-        m = folium.Map(location=[center_lat, center_lon], zoom_start=13, control_scale=True)
+        m = folium.Map(location=[center_lat, center_lon], zoom_start=13, control_scale=True, attr='&copy; <a href="https://openstreetmap.org">OpenStreetMap</a> contributors &copy; <a href="https://carto.com">CARTO</a>')
         
         # Layers
         folium.TileLayer('openstreetmap').add_to(m)
