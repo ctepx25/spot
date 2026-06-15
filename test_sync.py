@@ -98,9 +98,9 @@ def test_app_map_and_proxy_config():
 
     # 3. Verify Map tile layers are generated with HTTPS-secured Cartodb Positron and user-friendly name
     with app.test_client() as client:
-        # Request the index page which renders the map
-        response = client.get("/")
-        assert response.status_code == 200, "Index route should respond with 200 OK."
+        # Request the map-frame page which renders the map
+        response = client.get("/map-frame")
+        assert response.status_code == 200, "Map frame route should respond with 200 OK."
         html_content = response.get_data(as_text=True)
         
         # Check that Cartodb Positron tile URL is present in the rendered HTML

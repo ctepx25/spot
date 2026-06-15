@@ -92,84 +92,8 @@ def index():
             last_check_in = parsed_time.strftime("%Y-%m-%d %H:%M UTC")
         except Exception:
             last_check_in = latest_point['dateTime']
-            
         device_name = latest_point.get('messengerName', 'SPOT Device')
         model_id = latest_point.get('modelId', 'SPOT')
-        
-        # 3. Generate Folium Map centered on the latest point
-        center_lat = latest_point['latitude']
-        center_lon = latest_point['longitude']
-        
-        m = folium.Map(location=[center_lat, center_lon], zoom_start=13, control_scale=True, tiles=None)
-        
-        # Layers
-        folium.TileLayer('Cartodb Positron', name="Cartodb Positron").add_to(m)
-        folium.TileLayer('openstreetmap', name="OpenStreetMap").add_to(m)
-        folium.TileLayer(
-            tiles='https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}',
-            attr='Esri',
-            name='Esri Satellite',
-            overlay=False,
-            control=True
-        ).add_to(m)
-        folium.LayerControl().add_to(m)
-        
-        # Draw PolyLine connecting points
-        coordinates = [(msg['latitude'], msg['longitude']) for msg in filtered_messages]
-        if len(coordinates) > 1:
-            folium.PolyLine(
-                locations=coordinates,
-                color="#007bff",
-                weight=4,
-                opacity=0.8,
-                tooltip="Track Path"
-            ).add_to(m)
-            
-        # Add markers
-        for idx, row in enumerate(filtered_messages):
-            lat, lon = row['latitude'], row['longitude']
-            msg_type = row.get('messageType', 'Unknown')
-            msg_content = row.get('messageContent', '')
-            battery = row.get('batteryState', 'N/A')
-            alt = row.get('altitude', 0)
-            
-            try:
-                t = datetime.strptime(row['dateTime'][:19], "%Y-%m-%dT%H:%M:%S")
-                time_str = t.strftime('%Y-%m-%d %H:%M UTC')
-            except Exception:
-                time_str = row['dateTime']
-            
-            # HTML Popup
-            popup_html = f"""
-            <div style="font-family: Arial, sans-serif; font-size: 12px; width: 220px;">
-                <h4 style="margin: 0 0 5px 0; color: #1e3d59; border-bottom: 1px solid #ccc; padding-bottom: 3px;">📍 SPOT Check-in</h4>
-                <b>Time:</b> {time_str}<br/>
-                <b>Lat/Lon:</b> {lat:.5f}, {lon:.5f}<br/>
-                <b>Altitude:</b> {alt:.0f} m<br/>
-                <b>Type:</b> <span style="font-weight:bold; color:{get_marker_color(msg_type)};">{msg_type}</span><br/>
-                <b>Battery:</b> {battery}<br/>
-                {"<b>Message:</b> " + msg_content if msg_content else ""}
-            </div>
-            """
-            
-            # Prominent star marker for the latest location
-            if idx == len(filtered_messages) - 1:
-                folium.Marker(
-                    location=[lat, lon],
-                    popup=folium.Popup(popup_html, max_width=250),
-                    tooltip=f"LATEST - {time_str}",
-                    icon=folium.Icon(color="red", icon="star", prefix="fa")
-                ).add_to(m)
-            else:
-                folium.Marker(
-                    location=[lat, lon],
-                    popup=folium.Popup(popup_html, max_width=250),
-                    tooltip=f"Point {row['id']} - {time_str}",
-                    icon=folium.Icon(color=get_marker_color(msg_type), icon="info-sign")
-                ).add_to(m)
-                
-        # Render map HTML as a sandboxed iframe snippet
-        map_html = m._repr_html_()
         
     return render_template(
         "index.html",
@@ -180,9 +104,115 @@ def index():
         last_check_in=last_check_in,
         device_name=device_name,
         model_id=model_id,
-        map_html=map_html,
         messages=filtered_messages
     )
+
+@app.route("/map-frame")
+@app.route("/spot/map-frame")
+def map_frame():
+    # Load all records from database
+    all_msgs = get_all_messages(DB_PATH)
+    
+    # Extract unique dates present in the database to help with boundaries
+    dates_in_db = sorted(list(set(msg['dateTime'][:10] for msg in all_msgs)))
+    
+    # Determine selected date
+    selected_date_str = request.args.get("date")
+    if not selected_date_str:
+        if dates_in_db:
+            selected_date_str = dates_in_db[-1]
+        else:
+            selected_date_str = "2026-06-12"
+            
+    # Filter messages for the selected date
+    filtered_messages = [
+        msg for msg in all_msgs 
+        if msg['dateTime'].startswith(selected_date_str)
+    ]
+    filtered_messages.sort(key=lambda x: x['unixTime'])
+    
+    points_count = len(filtered_messages)
+    
+    # If no points, render a default centered map
+    if points_count == 0:
+        m = folium.Map(location=[0.0, 0.0], zoom_start=2, control_scale=True, tiles=None)
+        folium.TileLayer('Cartodb Positron', name="Cartodb Positron").add_to(m)
+        return m.get_root().render()
+        
+    latest_point = filtered_messages[-1]
+    center_lat = latest_point['latitude']
+    center_lon = latest_point['longitude']
+    
+    m = folium.Map(location=[center_lat, center_lon], zoom_start=13, control_scale=True, tiles=None)
+    
+    # Layers
+    folium.TileLayer('Cartodb Positron', name="Cartodb Positron").add_to(m)
+    folium.TileLayer('openstreetmap', name="OpenStreetMap").add_to(m)
+    folium.TileLayer(
+        tiles='https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}',
+        attr='Esri',
+        name='Esri Satellite',
+        overlay=False,
+        control=True
+    ).add_to(m)
+    folium.LayerControl().add_to(m)
+    
+    # Draw PolyLine connecting points
+    coordinates = [(msg['latitude'], msg['longitude']) for msg in filtered_messages]
+    if len(coordinates) > 1:
+        folium.PolyLine(
+            locations=coordinates,
+            color="#007bff",
+            weight=4,
+            opacity=0.8,
+            tooltip="Track Path"
+        ).add_to(m)
+        
+    # Add markers
+    for idx, row in enumerate(filtered_messages):
+        lat, lon = row['latitude'], row['longitude']
+        msg_type = row.get('messageType', 'Unknown')
+        msg_content = row.get('messageContent', '')
+        battery = row.get('batteryState', 'N/A')
+        alt = row.get('altitude', 0)
+        
+        try:
+            t = datetime.strptime(row['dateTime'][:19], "%Y-%m-%dT%H:%M:%S")
+            time_str = t.strftime('%Y-%m-%d %H:%M UTC')
+        except Exception:
+            time_str = row['dateTime']
+        
+        # HTML Popup
+        popup_html = f"""
+        <div style="font-family: Arial, sans-serif; font-size: 12px; width: 220px;">
+            <h4 style="margin: 0 0 5px 0; color: #1e3d59; border-bottom: 1px solid #ccc; padding-bottom: 3px;">📍 SPOT Check-in</h4>
+            <b>Time:</b> {time_str}<br/>
+            <b>Lat/Lon:</b> {lat:.5f}, {lon:.5f}<br/>
+            <b>Altitude:</b> {alt:.0f} m<br/>
+            <b>Type:</b> <span style="font-weight:bold; color:{get_marker_color(msg_type)};">{msg_type}</span><br/>
+            <b>Battery:</b> {battery}<br/>
+            {"<b>Message:</b> " + msg_content if msg_content else ""}
+        </div>
+        """
+        
+        # Prominent star marker for the latest location
+        if idx == len(filtered_messages) - 1:
+            folium.Marker(
+                location=[lat, lon],
+                popup=folium.Popup(popup_html, max_width=250),
+                tooltip=f"LATEST - {time_str}",
+                icon=folium.Icon(color="red", icon="star", prefix="fa")
+            ).add_to(m)
+        else:
+            folium.Marker(
+                location=[lat, lon],
+                popup=folium.Popup(popup_html, max_width=250),
+                tooltip=f"Point {row['id']} - {time_str}",
+                icon=folium.Icon(color=get_marker_color(msg_type), icon="info-sign")
+            ).add_to(m)
+            
+    # Render the full standalone map HTML
+    return m.get_root().render()
 
 @app.route("/sync", methods=["POST"])
 @app.route("/spot/sync", methods=["POST"])
