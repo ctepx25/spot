@@ -111,11 +111,11 @@ def sync_feed_data(feed_id, start_dt, end_dt, tg_token, tg_chat_id, db_path):
             msg_type = str(msg.get('messageType', '')).upper()
             
             # 1. Check if a new TRACK sequence starts
-            if msg_type == 'TRACK':
+            if msg_type == 'UNLIMITED-TRACK':
                 is_start = False
                 if last_msg is None:
                     is_start = True
-                elif str(last_msg.get('messageType', '')).upper() != 'TRACK':
+                elif str(last_msg.get('messageType', '')).upper() != 'UNLIMITED-TRACK':
                     is_start = True
                 else:
                     # Prior point was a TRACK, but check if there's a big gap (e.g. > 4 hours)
